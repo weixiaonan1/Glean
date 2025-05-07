@@ -1,0 +1,11 @@
+0	oos
+1	banking
+2	credit_cards
+3	kitchen_and_dining
+4	home
+5	auto_and_commute
+6	travel
+7	utility
+8	work
+9	small_talk
+10	meta
