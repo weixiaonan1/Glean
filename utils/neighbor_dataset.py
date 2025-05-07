@@ -9,12 +9,17 @@ import re
 import json
 import os
 from together import Together
+import logging
+
+from utils.tools import chat_with_llm
+
 
 class NeighborsDataset(Dataset):
     def __init__(self, args, dataset, indices, query_index, pred, p, cluster_name=None, num_neighbors=None,
                 di_all=None, di_all_pos_cluster_idx=None, di_all_neg_cluster_idx=None):
         super(NeighborsDataset, self).__init__()
         self.args = args
+        self.logger = logging.getLogger(args.running_method)
         self.dataset = dataset
         self.indices = indices # Nearest neighbor indices (np.array  [len(dataset) x k]) => [len(dataset) x (k+1)]
         self.query_index = query_index
@@ -189,50 +194,7 @@ class NeighborsDataset(Dataset):
         if self.args.running_method == 'GCDLLMs_w_cluster_alignment':
             return qs[0]
         try:
-            if 'gpt' not in self.args.llm:
-                os.environ["TOGETHER_API_KEY"] = self.args.api_key
-                client = Together()
-
-                max_retries = 5
-                retry_delay = 1  # Wait for 1 seconds before retrying
-                for attempt in range(max_retries):
-                    try:
-                        completion = client.chat.completions.create(
-                            model=self.args.llm,
-                            messages=[
-                                {"role": "system", "content": "You are a helpful assistant."},
-                                {"role": "user", "content": prompt}
-                            ],
-                            temperature=0.0,
-                            top_p=1.0,
-                            n=1,
-                            max_tokens=50
-                        )
-                        choices_content = completion.choices[0].message.content
-                        break  # If successful, break out of the loop
-                    except Exception as e:
-                        if attempt < max_retries - 1:
-                            print(f"Attempt {attempt + 1} failed: {e}. Retrying in {retry_delay} seconds...")
-                            time.sleep(retry_delay)
-                        else:
-                            print(f"Attempt {attempt + 1} failed: {e}. No more retries left.")
-                            raise e # Re-raise the exception to handle it outside the loop
-
-
-            else:
-                completion = openai.ChatCompletion.create(
-                    model=self.args.llm,  # 'gpt-4o-mini', # "gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=0.0,  # Set to 0 to remove randomness
-                    top_p=1.0,        # Use top_p sampling with the full range of tokens
-                    n=1,               # Number of responses to generate
-                    max_tokens=50     # Set a lower max_tokens value to limit response length and avoid timeout
-                )
-                # Check the choices dynamically
-                choices_content = completion.choices[0].message['content']
+            choices_content = chat_with_llm(prompt, self.args, self.logger)
             if self.count < 5:
                 print(f"\nPositive Neighbor Selection Completion Example: {self.count}\n", choices_content)
             for i in range(len(sqs)):
@@ -280,50 +242,7 @@ class NeighborsDataset(Dataset):
         if self.api_key is None:
             return topk_cat_indices[0]
         try:
-            if 'gpt' not in self.args.llm:
-                os.environ["TOGETHER_API_KEY"] = self.args.api_key
-                client = Together()
-
-                max_retries = 5
-                retry_delay = 1  # Wait for 1 seconds before retrying
-                for attempt in range(max_retries):
-                    try:
-                        completion = client.chat.completions.create(
-                            model=self.args.llm,
-                            messages=[
-                                {"role": "system", "content": "You are a helpful assistant."},
-                                {"role": "user", "content": prompt}
-                            ],
-                            temperature=0.0,
-                            top_p=1.0,
-                            n=1,
-                            max_tokens=50
-                        )
-                        choices_content = completion.choices[0].message.content
-                        break  # If successful, break out of the loop
-                    except Exception as e:
-                        if attempt < max_retries - 1:
-                            print(f"Attempt {attempt + 1} failed: {e}. Retrying in {retry_delay} seconds...")
-                            time.sleep(retry_delay)
-                        else:
-                            print(f"Attempt {attempt + 1} failed: {e}. No more retries left.")
-                            raise e # Re-raise the exception to handle it outside the loop
-                            
-
-            else:
-                completion = openai.ChatCompletion.create(
-                    model=self.args.llm,  # 'gpt-4o-mini', # "gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=0.0,  # Set to 0 to remove randomness
-                    top_p=1.0,        # Use top_p sampling with the full range of tokens
-                    n=1,               # Number of responses to generate
-                    max_tokens=50     # Set a lower max_tokens value to limit response length and avoid timeout
-                )
-                # Check the choices dynamically
-                choices_content = completion.choices[0].message['content']
+            choices_content = chat_with_llm(prompt, self.args, self.logger)
             if self.count < 5:
                 print(f"\nCluster Description Selection Completion Example: {self.count} \n", choices_content)
             for i in range(len(topk_cat_indices)):

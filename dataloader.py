@@ -1,4 +1,5 @@
 from utils.tools import *
+import logging
 
 max_seq_lengths = {'clinc':30, 'stackoverflow':45, 'banking':55}
 TOPK = {'clinc':50, 'stackoverflow':500, 'banking':50}
@@ -7,6 +8,9 @@ task = {'clinc': 'intent', 'stackoverflow': 'intent', 'banking': 'intent'}
 class Data:
     
     def __init__(self, args):
+        logger = logging.getLogger(args.running_method)
+        self.logger = logger
+
         set_seed(args.seed)
         args.max_seq_length = max_seq_lengths[args.dataset]
         if args.label_setting == 'shot':
@@ -31,14 +35,14 @@ class Data:
         self.train_labeled_examples, self.train_unlabeled_examples = self.get_examples(processor, args, 'train')
         self.eval_examples = self.get_examples(processor, args, 'eval')
         self.test_examples = self.get_examples(processor, args, 'test')
-        print('dataset', args.dataset)
-        print('known_cls_ratio', args.known_cls_ratio)
-        print('label_setting', args.label_setting)
-        print('labeled_shot', args.labeled_shot)
-        print('labeled_ratio', args.labeled_ratio)
-        print('num_known_cls', self.n_known_cls)
-        print('num_labeled_samples', len(self.train_labeled_examples))
-        print('num_unlabeled_samples', len(self.train_unlabeled_examples))
+        logger.info(f'dataset: {args.dataset}')
+        logger.info(f'known_cls_ratio: {args.known_cls_ratio}')
+        logger.info(f'label_setting: {args.label_setting}')
+        logger.info(f'labeled_shot: {args.labeled_shot}')
+        logger.info(f'labeled_ratio: {args.labeled_ratio}')
+        logger.info(f'num_known_cls: {self.n_known_cls}')
+        logger.info(f'num_labeled_samples: {len(self.train_labeled_examples)}')
+        logger.info(f'num_unlabeled_samples: {len(self.train_unlabeled_examples)}')
         args.num_labeled_examples = len(self.train_labeled_examples)
 
         if self.n_known_cls > 0:
@@ -51,26 +55,26 @@ class Data:
 
         self.eval_dataloader = self.get_loader(self.eval_examples, args, 'eval')
         self.test_dataloader = self.get_loader(self.test_examples, args, 'test')
-        print('\nlabel_map_train\n', args.label_map_train)
+        logger.info(f'\nlabel_map_train\n{args.label_map_train}')
         # print('\nlabel_map_test\n', args.label_map_test)
-        print('\nlabel_map_semi\n', args.label_map_semi)
+        logger.info(f'\nlabel_map_semi\n {args.label_map_semi}')
 
         ## Construct Demonstration Data
         if args.flag_demo or args.flag_demo_c:
-            print('\nConstruct Demonstration Data')
+            logger.info('\nConstruct Demonstration Data')
             # read from dev set
             df_demo_path = os.path.join(args.data_dir, args.dataset, 'dev.tsv')
             df_demo = pd.read_csv(df_demo_path, sep='\t')
             
             known_classes = self.known_label_list
-            print('Num of known classes: ', len(known_classes))
-            print('Known classes: ', known_classes)
+            logger.info(f'Num of known classes: {len(known_classes)}')
+            logger.info(f'Known classes: {known_classes}')
 
             # sample demon data per known class
             demo_data = df_demo[df_demo['label'].isin(known_classes)].groupby('label').head(args.known_demo_num_per_class).reset_index(drop=True)
             demo_data_c = df_demo[~df_demo['label'].isin(known_classes)].groupby('label').head(args.known_demo_num_per_class_c).reset_index(drop=True)
-            print('Demo data shape: ', demo_data.shape)
-            print('Demo data shape_c: ', demo_data_c.shape)
+            logger.info(f'Demo data shape:  {demo_data.shape}')
+            logger.info(f'Demo data shape_c:  {demo_data_c.shape}')
 
             # Construct demonstration prompt
             args.prompt_demo = ""
@@ -88,7 +92,7 @@ class Data:
                     else:
                         args.prompt_demo_c += f"Text: {demo_data_c['text'][i]}\t \n"
 
-            print(args.prompt_demo_c)
+            logger.info(args.prompt_demo_c)
 
 
     def get_examples(self, processor, args, mode = 'train'):

@@ -1,6 +1,7 @@
 from utils.tools import *
 from model import BertForModel
 from transformers import WEIGHTS_NAME, CONFIG_NAME, AutoTokenizer
+import logging
 
 class PretrainModelManager:
     """
@@ -9,8 +10,11 @@ class PretrainModelManager:
     def __init__(self, args, data):
         set_seed(args.seed)
         self.args = args
+        logger = logging.getLogger(args.running_method)
+        self.logger = logger
+
         n_gpu = torch.cuda.device_count()
-        print(n_gpu)
+        logger.info(n_gpu)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model = BertForModel(args.bert_model, num_labels=data.n_known_cls, device=self.device)
         if n_gpu > 1:
@@ -101,10 +105,10 @@ class PretrainModelManager:
                     nb_tr_steps += 1
             
             loss = tr_loss / nb_tr_steps
-            print('train_loss',loss)
+            self.logger.info(f'train_loss: {loss}')
             
             eval_score = self.eval(args, data)
-            print('score', eval_score)
+            self.logger.info(f'score: {eval_score}')
             
             if eval_score > self.best_eval_score:
                 best_model = copy.deepcopy(self.model)

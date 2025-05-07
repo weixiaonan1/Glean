@@ -2,11 +2,11 @@
 export OMP_NUM_THREADS=16
 export CUDA_VISIBLE_DEVICES=0
 
-for dataset in 'clinc' 'banking'
+for dataset in 'banking' # 'clinc'
 do
 	for seed in 42
 	do
-		for known_cls_ratio in 0.1 0.25
+		for known_cls_ratio in 0.5 # 0.1 0.25
 		do
 			for labeled_ratio in 0.1
 			do
@@ -18,9 +18,9 @@ do
 						do	
 							for options_cluster_instance_ratio in 0.5 # 0.1 0.25, 0.5, 0.75 1
 							do
-								for weight_cluster_instance_cl in 0.1 0.05
+								for weight_cluster_instance_cl in 0.1 # 0.05
 								do		
-									for llm in "gpt-4o-mini-2024-07-18" # deepseek-ai/DeepSeek-V3
+									for llm in "gpt-4o-mini-2024-07-18" # deepseek-ai/DeepSeek-V3 # Qwen2.5-32B-Instruct
 									do		
 										echo "Dataset: ${dataset}"
 										echo "Running with known_cls_ratio=${known_cls_ratio}, labeled_ratio=${labeled_ratio}, query_samples=${query_samples}"
@@ -51,11 +51,12 @@ do
 											--query_samples $query_samples \
 											--options $options \
 											--train_batch_size 48 \
-											--pretrain_batch_size 48 \
+											--pretrain_batch_size 80 \
 											--sampling_strategy $sampling_strategy \
 											--options_cluster_instance_ratio $options_cluster_instance_ratio \
 											--llm $llm \
-											--api_key 'YOUR_API_KEY'
+											--base_url 'https://api.openai-proxy.org/v1'\
+											--api_key 'sk-i7gD2E0DAr1dpQMJ2jcgITTQH9iz9uNSf6J8cDUIG1eaNCpE'
 									done
 								done
 							done

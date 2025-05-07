@@ -235,7 +235,7 @@ class MemoryBank(object):
 
 
 @torch.no_grad()
-def fill_memory_bank(loader, model, memory_bank):
+def fill_memory_bank(loader, model, memory_bank, logger):
     model.eval()
     memory_bank.reset()
 
@@ -248,4 +248,4 @@ def fill_memory_bank(loader, model, memory_bank):
 
         memory_bank.update(feature, label_ids)
         if i % 20 == 0:
-            print('Fill Memory Bank [%d/%d]' %(i, len(loader)))
+            logger.info(f'Fill Memory Bank [{i}/{len(loader)}]')

@@ -8,7 +8,7 @@ from utils.memory import MemoryBank, fill_memory_bank
 from utils.neighbor_dataset import NeighborsDataset
 from model import BertForModel
 from model import DistillLoss
-from transformers import logging, WEIGHTS_NAME
+from transformers import logging as hf_logging, WEIGHTS_NAME
 from torch.utils.data import DataLoader
 from torch.utils.data._utils.collate import default_collate
 import warnings
@@ -18,14 +18,41 @@ import re
 import time
 import openai
 from together import Together
+import logging
 warnings.filterwarnings('ignore')
-logging.set_verbosity_error()
+hf_logging.set_verbosity_error()
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+def set_logger(args):
+    import datetime
+    time = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+    log_dir ='./logs/log_' + args.dataset + '_seed_' + str(args.seed) + '_known_cls_ratio_' + str(
+        args.known_cls_ratio) + '_labeled_ratio_' + str(args.labeled_ratio) + '_method_' + str(args.running_method)
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+    file_name = f'{time}.log'
+    logger = logging.getLogger(args.running_method)
+    logger.setLevel(logging.INFO)
+    fh = logging.FileHandler(os.path.join(log_dir, file_name))
+    fh_formatter = logging.Formatter('%(asctime)s - %(name)s - %(message)s')
+    fh.setFormatter(fh_formatter)
+    fh.setLevel(logging.INFO)
+    logger.addHandler(fh)
+
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+    ch_formatter = logging.Formatter('%(name)s - %(message)s')
+    ch.setFormatter(ch_formatter)
+    logger.addHandler(ch)
+
+    return logger
 
 class ModelManager:
     def __init__(self, args, data, pretrained_model=None):
         set_seed(args.seed)
         self.args = args
+        logger = logging.getLogger(args.running_method)
+        self.logger = logger
         n_gpu = torch.cuda.device_count()
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.num_labels = data.num_labels
@@ -55,7 +82,7 @@ class ModelManager:
         self.generator = view_generator(self.tokenizer, args.rtr_prob, args.seed)
         args.num_training_rounds = math.ceil(args.num_train_epochs / args.update_per_epoch)
         args.current_training_round = 0
-        print('\nNumber of Training Rounds: ', args.num_training_rounds)
+        logger.info(f'\nNumber of Training Rounds: {args.num_training_rounds}')
 
     def custom_collate(self, batch):
         batch_dict = {}
@@ -70,13 +97,13 @@ class ModelManager:
         if init or not args.feedback_cache:
             self.di_all, self.di_all_pos_cluster_idx, self.di_all_neg_cluster_idx = {}, {}, {}
         else:
-            print('\nLoad LLM feedback from cache')
+            self.logger.info('\nLoad LLM feedback from cache')
             self.di_all = self.dataset.di_all
             self.di_all_pos_cluster_idx = self.dataset.di_all_pos_cluster_idx
             self.di_all_neg_cluster_idx = self.dataset.di_all_neg_cluster_idx
         # print the number of keys in di_all
         self.num_cached_feedback = len(self.di_all)
-        print('\n Number of Loaded LLM feedback: ', len(self.di_all))
+        self.logger.info(f'\n Number of Loaded LLM feedback: {len(self.di_all)}')
 
         dataset = NeighborsDataset(args, data.train_semi_dataset, indices, query_index, pred, p, cluster_name=cluster_name,
                                    di_all=self.di_all, di_all_pos_cluster_idx=self.di_all_pos_cluster_idx, di_all_neg_cluster_idx=self.di_all_neg_cluster_idx)
@@ -85,7 +112,7 @@ class ModelManager:
 
     def get_neighbor_inds(self, args, data, km):
         memory_bank = MemoryBank(args, len(data.train_semi_dataset), args.feat_dim, len(data.all_label_list), 0.1)
-        fill_memory_bank(data.train_semi_dataloader, self.model, memory_bank)
+        fill_memory_bank(data.train_semi_dataloader, self.model, memory_bank, self.logger)
         indices, query_index, p = memory_bank.mine_nearest_neighbors(args.topk, km.labels_, km.cluster_centers_)
         return indices, query_index, p
     
@@ -106,7 +133,7 @@ class ModelManager:
 
     def evaluation(self, args, data, save_results=True, plot_cm=True):
         """final clustering evaluation on test set"""
-        print('\n### Evaluation ###\n')
+        self.logger.info('\n### Evaluation ###\n')
         # get features
         feats_test, labels, logits = self.get_features_labels(data.test_dataloader, self.model, args, return_logit=True)
         feats_test = feats_test.cpu().numpy()
@@ -116,7 +143,7 @@ class ModelManager:
         y_pred = km.labels_
         y_true = labels.cpu().numpy()
         results = clustering_score(y_true, y_pred, data.known_lab)
-        print('results',results)
+        self.logger.info(f'results: {results}')
         self.test_results = results
 
         # save results
@@ -152,16 +179,17 @@ class ModelManager:
         # Category Characterization
         if self.args.weight_cluster_instance_cl > 0:
             cluster_name = self.category_characterization(data, km, feats_gpu)
-            print('len(cluster_name)',len(cluster_name))
+            self.logger.info(f'len(cluster_name): {len(cluster_name)}')
 
             label_names = list(args.label_map_semi.keys())
-            print('label_names',label_names)   
+            self.logger.info(f'label_names: {label_names}')
         else:
             cluster_name = None
 
         # Get Neighbor Dataset
         args.current_training_round += 1
-        print('\nCurrent Training Round: ', args.current_training_round)
+        self.logger.info(f'\nCurrent Training Round: {args.current_training_round}')
+        # indices: 每个样本的K个最近邻， query_index：不确定性最高的样本，p：分类概率的entropy，越大越不置信
         indices, query_index, p = self.get_neighbor_inds(args, data, km)
         self.get_neighbor_dataset(args, data, indices, query_index, km.labels_, p, cluster_name=cluster_name, init=True)
 
@@ -169,7 +197,7 @@ class ModelManager:
         # Training
         labelediter = iter(data.train_labeled_dataloader)
         for epoch in range(int(args.num_train_epochs)):
-            print(f'\n\nTraining Epoch: [{epoch+1}/{args.num_train_epochs}]')
+            self.logger.info(f'\n\nTraining Epoch: [{epoch+1}/{args.num_train_epochs}]')
             self.model.train()
             tr_loss = 0
             nb_tr_examples, nb_tr_steps = 0, 0
@@ -308,10 +336,10 @@ class ModelManager:
                     nb_tr_steps += 1
 
                     if _ % args.print_freq == 0:
-                        print(pstr)
+                        self.logger.info(pstr)
 
             loss = tr_loss / nb_tr_steps
-            print('train_loss',loss)
+            self.logger.info(f'train_loss: {loss}')
             self.dataset.count = 0
             
             args.evaluation_epoch = epoch
@@ -330,9 +358,9 @@ class ModelManager:
                     # Category Characterization
                     cluster_name = self.category_characterization(data, km, feats_gpu)
                     # print('\nAll Category Names and description:', cluster_name)
-                    print('len(cluster_name)',len(cluster_name))
+                    self.logger.info(f'len(cluster_name): {len(cluster_name)}')
                     label_names = list(args.label_map_semi.keys())
-                    print('label_names',label_names)  
+                    self.logger.info(f'label_names: {label_names}')
                     measure_interpretability(cluster_name, label_names, args)  
                 else:
                     cluster_name = None
@@ -344,10 +372,10 @@ class ModelManager:
 
 
     def category_characterization(self, data, km, feats_gpu):
-        print('\n\n### Category Characterization ###\n')
-        print('Sampling Strategy:', self.args.interpret_sampling_strategy)
-        print('Number of Representatives:', self.args.interpret_num_representatives)
-        print('LLM Interpretation Model:', self.args.llm)
+        self.logger.info('\n\n### Category Characterization ###\n')
+        self.logger.info(f'Sampling Strategy:{self.args.interpret_sampling_strategy}')
+        self.logger.info(f'Number of Representatives:{self.args.interpret_num_representatives}')
+        self.logger.info(f'LLM Interpretation Model: {self.args.llm}')
 
         # Sample representative examples from each cluster
         interpret_num_representatives = self.args.interpret_num_representatives
@@ -383,7 +411,7 @@ class ModelManager:
                 sub_indices = sub_index[:, :1].flatten()
                 original_indices = torch.where(km_labels == i)[0]
                 index.append(original_indices[sub_indices])
-            print('Sub-Cluster Index:', index)
+            self.logger.info(f'Sub-Cluster Index: {index}')
         else:
             raise NotImplementedError(f"Sampling strategy {self.args.interpret_sampling_strategy} not implemented!")
 
@@ -405,16 +433,16 @@ class ModelManager:
                     query_label_index = data.train_semi_dataset.__getitem__(j)[3].item()
                     query_label_name = args.get_label_name_semi[query_label_index]
                     query_labels.append(query_label_name)
-                print(f'\nCategory Characterization Examples: {i}')
-                print('Query Text:\n', query_text) 
-                print('Query Ground Truth Labels:\n', query_labels)
-                print('LLM Generated Category Name and Description:\n', llm_feedback)
+                self.logger.info(f'\nCategory Characterization Examples: {i}')
+                self.logger.info(f'Query Text:\n{query_text}')
+                self.logger.info(f'Query Ground Truth Labels:\n {query_labels}')
+                self.logger.info(f'LLM Generated Category Name and Description:\n {llm_feedback}')
             example_count += 1
 
         self.cluster_reprsentatives = index
 
         # print('\nAll Category Names and description:', cluster_name)
-        print('Total Number of category characterization:', len(cluster_name))
+        self.logger.info(f'Total Number of category characterization: {len(cluster_name)}')
         # print('Total Number of words in category characterization:', sum([len(name.split()) for name in cluster_name]))
         
         return cluster_name
@@ -432,53 +460,12 @@ class ModelManager:
             prompt += f"Utterance {i}: {utterance}\n"
 
         if example_count < 1:
-            print(f'\nCluster Interpretation Prompt Example: {example_count}\n', prompt)
+            self.logger.info(f'\nCluster Interpretation Prompt Example: {example_count}\n {prompt}')
 
-        openai.api_key = self.args.api_key
         try:
-            if 'gpt' not in self.args.llm:
-                os.environ["TOGETHER_API_KEY"] = self.args.api_key
-                client = Together()
-                max_retries = 5
-                retry_delay = 1  # Wait for 1 seconds before retrying
-                for attempt in range(max_retries):
-                    try:
-                        completion = client.chat.completions.create(
-                            model= self.args.llm,
-                            messages=[
-                                {"role": "system", "content": "You are a helpful assistant."},
-                                {"role": "user", "content": prompt}
-                            ],
-                            temperature=0.0,
-                            top_p=1.0,
-                            n=1,
-                            max_tokens=50
-                        )
-                        return completion.choices[0].message.content
-                        # break  # If successful, break out of the loop
-                    except Exception as e:
-                        if attempt < max_retries - 1:
-                            print(f"Attempt {attempt + 1} failed: {e}. Retrying in {retry_delay} seconds...")
-                            time.sleep(retry_delay)
-                        else:
-                            print(f"Attempt {attempt + 1} failed: {e}. No more retries left.")
-                            raise e # If all attempts fail, raise the last exception   
-                        
-            else:
-                completion = openai.ChatCompletion.create(
-                    model= self.args.llm, #'gpt-4o-mini', # "gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "You are a helpful assistant."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=0.0,  # Set to 0 to remove randomness
-                    top_p=1.0,        # Use top_p sampling with the full range of tokens
-                    n=1,               # Number of responses to generate
-                    max_tokens=50     # Set a lower max_tokens value to limit response length and avoid timeout
-                )
-                return completion.choices[0].message['content']
+            return chat_with_llm(prompt, self.args, self.logger)
         except Exception as e:
-            print(f"LLM query failed with exception: {e}")
+            self.logger.info(f"LLM query failed with exception: {e}")
             # Return the first three utterances as a fallback
             fallback_text = " | ".join(utterances[:3])
             return f"Fallback Description: {fallback_text}"
@@ -570,8 +557,8 @@ class ModelManager:
             df1.to_csv(results_path,index=False)
         data_diagram = pd.read_csv(results_path)
         
-        print('result_source:', result_source)
-        print('test_results\n', data_diagram)
+        self.logger.info(f'result_source: {result_source}')
+        self.logger.info(f'test_results\n {data_diagram}')
     
     def restore_model(self, args, model):
         output_model_file = os.path.join(args.pretrain_dir, WEIGHTS_NAME)
@@ -594,7 +581,7 @@ class ModelManager:
 
         pred_label_list = np.unique(y_pred)
         drop_out = len(feats) / data.num_labels * 0.9
-        print('drop',drop_out)
+        self.logger.info(f'drop: {drop_out}')
 
         cnt = 0
         for label in pred_label_list:
@@ -603,17 +590,16 @@ class ModelManager:
                 cnt += 1
 
         num_labels = len(pred_label_list) - cnt
-        print('pred_num',num_labels)
+        self.logger.info(f'pred_num: {num_labels}')
 
         return num_labels
     
 if __name__ == '__main__':
-
-    print('\nParameters Initialization...')
     parser = init_model()
     args = parser.parse_args()
+    logger = set_logger(args)
     result_source = 'tba'
-    
+
     var = [args.dataset, args.running_method, args.architecture, args.known_cls_ratio, args.label_setting, args.labeled_shot, args.labeled_ratio, result_source, args.seed, args.topk, args.view_strategy, args.num_train_epochs, args.ce_weight, args.cl_weight, args.sup_weight, args.weight_ce_unsup, args.options, args.query_samples, args.update_per_epoch,
             args.sampling_strategy, args.allocation_degree,
             args.weight_cluster_instance_cl, args.options_cluster_instance_ratio]
@@ -621,11 +607,11 @@ if __name__ == '__main__':
                 'sampling_strategy', 'allocation_degree',
                 'weight_cluster_instance_cl', 'options_cluster_instance_ratio']
 
-    print('\n### Key Hyperparameters and Values###')
+    logger.info('\n### Key Hyperparameters and Values###')
     for i in range(len(names)):
-        print(names[i], ':', var[i])
+        logger.info(f'{names[i]}: {var[i]}')
 
-    print('\nData Initialization...')
+    logger.info('\nData Initialization...')
     data = Data(args)
 
     # Pretraining
@@ -635,14 +621,15 @@ if __name__ == '__main__':
         args.disable_pretrain = False
 
     if not args.disable_pretrain:
-        print('\n\nPre-training begin...')
+        logger.info('\n\nPre-training begin...')
         manager_p = PretrainModelManager(args, data)
         manager_p.train(args, data)
-        print('Pre-training finished!')
+        logger.info('Pre-training finished!')
         manager = ModelManager(args, data, manager_p.model)
     else:
         manager = ModelManager(args, data)
-    
+
+
     if args.report_pretrain:
         method = args.method
         args.method = 'pretrain'
@@ -651,16 +638,16 @@ if __name__ == '__main__':
 
     manager = ModelManager(args, data)
 
-    print('\n\nTraining begin...')
-    print('architecture: ', args.architecture)
+    logger.info('\n\nTraining begin...')
+    logger.info(f'architecture: {args.architecture}')
     manager.train(args,data)
-    print('Training finished!')
+    logger.info('Training finished!')
 
-    print('Evaluation begin...')
+    logger.info('Evaluation begin...')
     manager.evaluation(args, data)
-    print('Evaluation finished!')
+    logger.info('Evaluation finished!')
     if args.save_model:
-        print('Saving Model ...')
+        logger.info('Saving Model ...')
         manager.model.save_backbone(args.save_model_path)
-    print('\n Number of All LLM feedback: ',len(manager.di_all))
-    print("Finished!")
+    logger.info(f'\n Number of All LLM feedback: {len(manager.di_all)}',)
+    logger.info("Finished!")

@@ -6,16 +6,13 @@ def init_model():
     parser.add_argument("--data_dir", default='data', type=str,
                         help="The input data dir. Should contain the .csv files (or other data files) for the task.")
     
-    parser.add_argument("--api_key", type=str, default=None,
-                        help="The key for Openai API.")
-    
     parser.add_argument("--save_results_path", type=str, default='outputs',
                         help="The path to save results.")
 
-    parser.add_argument("--bert_model", default="bert-base-uncased", type=str,
+    parser.add_argument("--bert_model", default="/data/weinan/models/pretrained_models/bert-base-uncased", type=str,
                         help="The path or name for the pre-trained bert model.")
 
-    parser.add_argument("--tokenizer", default="bert-base-uncased", type=str,
+    parser.add_argument("--tokenizer", default="/data/weinan/models/pretrained_models/bert-base-uncased", type=str,
                         help="The path or name for the tokenizer")
     
     parser.add_argument("--feat_dim", default=768, type=int,
@@ -126,6 +123,12 @@ def init_model():
     # Cluster Interpritability
     parser.add_argument("--interpret_sampling_strategy", default="nearest_center", type=str, help="Choose from random|nearest_center|nearest_sub_kmeans_centriods")
     parser.add_argument("--interpret_num_representatives", default=10, type=int, help="# representatives from each cluster to query llm.")
+
+    # LLM
+    parser.add_argument("--base_url", type=str, default=None, help="The base url for Openai client.")
+
+    parser.add_argument("--api_key", type=str, default=None, help="The key for Openai API.")
+
     parser.add_argument("--llm", default="gpt-4o-mini", type=str, help="Choose from gpt-3.5-turbo|gpt-4o-mini|gpt-4o|gpt-4-turbo|gpt-4")
 
 

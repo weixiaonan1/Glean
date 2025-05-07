@@ -1,5 +1,6 @@
 from utils.tools import *
 from utils.contrastive import SupConLoss
+import logging
         
 class BertForModel(nn.Module):
     def __init__(self,model_name, num_labels, device=None):
@@ -43,6 +44,8 @@ class CLBert(nn.Module):
     def __init__(self, args, model_name, device, num_labels, feat_dim=768, norm_classifier=True):
         super(CLBert, self).__init__()
         self.args = args
+        logger = logging.getLogger(args.running_method)
+        self.logger = logger
         self.model_name = model_name
         self.device = device
         self.num_labels = num_labels
@@ -56,10 +59,10 @@ class CLBert(nn.Module):
         )
 
         if args.architecture == 'Loop':
-            print('\nUsing Loop Architecture')
+            logger.info('\nUsing Loop Architecture')
             self.classifier = nn.Linear(feat_dim, self.num_labels)
         else: 
-            print('\nUsing Default Architecture')
+            logger.info('\nUsing Default Architecture')
             self.classifier = nn.utils.weight_norm(nn.Linear(feat_dim, self.num_labels, bias=False))
             self.classifier.weight_g.data.fill_(1)
             if norm_classifier:
