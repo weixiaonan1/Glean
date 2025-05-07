@@ -1,0 +1,2251 @@
+text	label	domain
+what's the nutrient info for a donut	nutrition_info	kitchen_and_dining
+what are the steps required for making a vacation request	pto_request	work
+how do i jump start a fiat	jump_start	auto_and_commute
+could you please raise your volume	change_volume	meta
+would i need to get a visa to go to ireland	international_visa	travel
+how do i get to the train by foot	directions	auto_and_commute
+what temp is the ac at	smart_home	home
+i need to know the status of my alaska air flight	flight_status	travel
+what do i do to request a vacation	pto_request	work
+turn lights on in the garage	smart_home	home
+i want to learn to change oil	oil_change_how	auto_and_commute
+can you call alexa	make_call	utility
+please confirm my reservation at brio for theodore	confirm_reservation	kitchen_and_dining
+how often do you change your tires	tire_change	auto_and_commute
+i need alarms set for 6am and 615am	alarm	utility
+is there traffic on bramble lane	traffic	auto_and_commute
+change the accent you're using	change_accent	meta
+what's the currency conversion between rubles and pounds	exchange_rate	travel
+text someone	text	utility
+what's the date tomorrow	date	utility
+tell me how many a's are in magical	spelling	utility
+what do you do when you're not working, for fun	what_are_your_hobbies	small_talk
+if i order a new card how long would it take	replacement_card_duration	credit_cards
+create a reminder to change my oil	reminder_update	home
+remind me to use the bathroom	reminder_update	home
+tell me if i can get a higher limit on my visa	credit_limit_change	credit_cards
+what's on the shopping list	shopping_list	home
+can i use red onions instead of white	ingredient_substitution	kitchen_and_dining
+can i make an appointment for an oil change	schedule_maintenance	auto_and_commute
+where is the best winery in the south of france	travel_suggestion	travel
+cancel that last thing	cancel	meta
+howdy, what's new	greeting	small_talk
+lets fin out some fun facts about humans	fun_fact	small_talk
+what kind of items are on my shopping list	shopping_list	home
+i want to transfer funds between accounts	transfer	banking
+what do i do if i lost my card	report_lost_card	credit_cards
+help me find a roundtrip flight for may 7th through the 20th from pittsburgh to chicago	book_flight	travel
+i want to listen to another song	next_song	home
+do you know how many calories are in a single chicken breast	calories	kitchen_and_dining
+my car's tires are due to be looked at, can you help me get an appointment for that	schedule_maintenance	auto_and_commute
+can you confirm the date my last paycheck was received	payday	work
+tell me my visa limit	credit_limit	credit_cards
+i want to know my credit limit	credit_limit	credit_cards
+what's my credit card's annual percentage rate	apr	credit_cards
+i need to know who is your boss	who_do_you_work_for	small_talk
+can i change your talking voice	change_speed	meta
+i need to make an appointment for an oil change, please	schedule_maintenance	auto_and_commute
+convert my credit card points to cash	redeem_rewards	credit_cards
+where is the nearest arco gas station to macdonalds	directions	auto_and_commute
+what is the validity of my credit card	expiration_date	credit_cards
+what is my spending limit on my mastercard	credit_limit	credit_cards
+what kind of traffic can i expect at 9:00 on the route to detroit	traffic	auto_and_commute
+can you tell me how long approximate wait times are at cheesecake factory	how_busy	kitchen_and_dining
+tell me the status of my day off request	pto_request_status	work
+make sure my flower bar reservation is scheduled for tomorrow	confirm_reservation	kitchen_and_dining
+tomorrow, what will the date be	date	utility
+share location with bill	share_location	utility
+how much can i spend wth my visa	credit_limit	credit_cards
+does marios in brooklyn take reservations	accept_reservations	kitchen_and_dining
+how do you spell water	spelling	utility
+send sal a text and tell them thanks	text	utility
+set this to my factory settings	reset_settings	meta
+which hotels in evans have good reviews	book_hotel	travel
+how many items are on my todo list	todo_list	home
+i need to know the carry-on restrictions for united airlines	carry_on	travel
+do i need some shots, if i am traveling to china	vaccines	travel
+purchase me the kyrie 4s	order	home
+do i need to have any shots to visit chile	vaccines	travel
+if i can, i'd like to get some more checkbooks mailed to me	order_checks	banking
+can you give me the name of this tune	what_song	home
+tell me how to spell anonymous	spelling	utility
+how many vacation days do i have saved up, please	pto_balance	work
+i'm short on flour so place an order for me	order	home
+what's the apr on my amex card	apr	credit_cards
+put a device with my phone	sync_device	meta
+i replaced my tires on may 2, so when should i replace them next	tire_change	auto_and_commute
+can you help me plan a vacation	pto_request	work
+can i get new checks to replace the ones we ran out of	order_checks	banking
+how many ounces in a gallon	measurement_conversion	utility
+does applebees have alright reviews	restaurant_reviews	kitchen_and_dining
+make a 10 minute timer	timer	utility
+what stuff do you dump in an omelette	ingredients_list	kitchen_and_dining
+how much state taxes do i owe	taxes	work
+do i have any meetings with dave today	meeting_schedule	work
+no, that is fake	no	meta
+could be there be a good amount of money in my checking account to go on a vacation	balance	banking
+when will i need another oil change	oil_change_when	auto_and_commute
+how do you make chicken noodle casserole	ingredients_list	kitchen_and_dining
+can you check washing the dishes off on my to do list	todo_list_update	home
+did i stick to my dinner budget	spending_history	banking
+i want you to talk more quickly	change_speed	meta
+change this song please	next_song	home
+please roll a 10 sided die and tell me what number it is	roll_dice	utility
+can you roll a die for me	roll_dice	utility
+i would like to know the types of subjects are you familiar with	what_can_i_ask_you	small_talk
+good bye then	goodbye	small_talk
+can you tell me what the next day is	date	utility
+can you confirm i have a reservation at 5 pm on march 13th	confirm_reservation	kitchen_and_dining
+what's my irs bill going to look like	taxes	work
+i gotta apply for a new credit card	new_card	credit_cards
+please tell me if you are a bot	are_you_a_bot	small_talk
+check up on the status of my online order	order_status	home
+give me a cool fact about puppies	fun_fact	small_talk
+disconnect from my phone for me	sync_device	meta
+i have no clue	maybe	meta
+both maybe	maybe	meta
+tell me a joke if you'd like to	tell_joke	small_talk
+can you please talk faster	change_speed	meta
+what's the estimated travel time to get to dc via bus	distance	auto_and_commute
+can you get me more checkbooks for my southern account	order_checks	banking
+how much am i getting back from work	income	work
+i would like to know the credit limit for my citibank card	credit_limit	credit_cards
+it might go either way	maybe	meta
+where can i apply for a black amex card	new_card	credit_cards
+what is the name of my health insurance	insurance	work
+what is the total for my utilities bill this month	bill_balance	banking
+what is the apr on my amex card	apr	credit_cards
+i couldn't hear you, can you repeat it	repeat	meta
+what is the calorie content of lays chips	calories	kitchen_and_dining
+it is true	yes	meta
+how is the traffic on my way to the venue	traffic	auto_and_commute
+heads or tails please	flip_coin	utility
+i need you to buy a mouse for me	order	home
+roll a fourteen sided dice exactly	roll_dice	utility
+add a meeting with tom at 6pm	schedule_meeting	work
+i want to know what the routing is for chase	routing	banking
+how do you usually refer to me	user_name	meta
+book me a hotel in chicago near the water tower shopping from april 2nd to 4th	book_hotel	travel
+do you have any of the beatles music	play_music	home
+what's your bday	how_old_are_you	small_talk
+i need leslie to be texted saying have a good day	text	utility
+order everything that's on my list for shopping	order	home
+alert my bank and let them know that i'm travelling to switzerland	travel_notification	travel
+can you call michelle on the home phone	make_call	utility
+how would you say can i borrow five dollars in portuguese	translate	travel
+speed up speech please	change_speed	meta
+i need to rent a car in boston	car_rental	travel
+can you let me if zeus accepts reservations	accept_reservations	kitchen_and_dining
+i'm going to need a coupe car in sedona from 5/1 until 5/4	car_rental	travel
+put dishes on to do list	todo_list_update	home
+i lost my commerce card and need to report it as lost	report_lost_card	credit_cards
+what should you be called	what_is_your_name	small_talk
+is it possible for you to speak with a british gent's accent	change_accent	meta
+can i have my volume increased	change_volume	meta
+good morning, ai	greeting	small_talk
+ahoy hoy	greeting	small_talk
+i must get the w-2 form	w2	work
+make a reminder to pay my cable bill today	reminder_update	home
+can i substitute milk for almond milk	ingredient_substitution	kitchen_and_dining
+put the song that's playing to my techno playlist	update_playlist	home
+i'd say no	no	meta
+will you help me rent a car from march 2 to 6th in dallas i want a bmw suv, if possible	car_rental	travel
+please look up the this cars mpg	mpg	auto_and_commute
+let me know what today's date is	date	utility
+heads or tails i choose tails	flip_coin	utility
+will flight dl123 be on time	flight_status	travel
+show me something funny about food	tell_joke	small_talk
+really great!	thank_you	small_talk
+how much pto do i have used up	pto_used	work
+how long to get a new credit card	replacement_card_duration	credit_cards
+how do you say cat in spanish	translate	travel
+turn the lights down	smart_home	home
+put a stop on my deposit account	freeze_account	banking
+call tom	make_call	utility
+i would like to place an order for more checkbooks to me mailed to me	order_checks	banking
+i want to remove milk from my shopping list and add bread	shopping_list_update	home
+how much vacation time have i accrued	pto_balance	work
+has my credit card application been processed	application_status	credit_cards
+what is the balance on my bank accounts	balance	banking
+what fuel do i put in this car	gas_type	auto_and_commute
+how many days before my credit card arrives	replacement_card_duration	credit_cards
+in what year were you born	how_old_are_you	small_talk
+jello should stay in the fridge for how long	food_last	kitchen_and_dining
+how do i go about changing the oil in my car	oil_change_how	auto_and_commute
+i want to know my credit rating	credit_score	credit_cards
+what do tourists do in tokyo	travel_suggestion	travel
+find out how to make chicken tikka masala	recipe	kitchen_and_dining
+have i set aside a time on my to do list to do my taxes	todo_list	home
+where are you from oroginally	where_are_you_from	small_talk
+do one coin flip; it will be tails	flip_coin	utility
+what organization manufactures you	who_made_you	small_talk
+what's the typical lag time in receiving a new credit card when your previous one was lost	replacement_card_duration	credit_cards
+my discover card expires on what date	expiration_date	credit_cards
+help me flip a coin	flip_coin	utility
+tell me what my credit score is	credit_score	credit_cards
+please immediatly block my presidential bank account right now	freeze_account	banking
+what's the way to make apple pie	recipe	kitchen_and_dining
+help, i lost my luggage	lost_luggage	travel
+what is the smallest amount i can pay on my tmobile bill	min_payment	banking
+i didn't make these purchases on my card; these are fraudulent charges i need to report them	report_fraud	banking
+are you an ai or can you prove you're human	are_you_a_bot	small_talk
+are the donuts at tgi well reviewed	restaurant_reviews	kitchen_and_dining
+when is too late to pay my cable bill	bill_due	banking
+i want to know my credit card apr	apr	credit_cards
+i want a timer set for 10 minutes	timer	utility
+help me, i don't know where my phone is	find_phone	utility
+what reminders do i have	reminder	home
+i would like to report fraudulent activity on my chase card	report_fraud	banking
+im not sure	maybe	meta
+do you have any information on how to open a new credit card	new_card	credit_cards
+what is the total of all my bills combined	bill_balance	banking
+i want a text sent to bob saying i will be late	text	utility
+can i make a reservation for redrobin	accept_reservations	kitchen_and_dining
+set your name to hillary	change_ai_name	meta
+what place were you born	where_are_you_from	small_talk
+what time is it in the mountain timezone	time	utility
+i need kilograms to milligrams	measurement_conversion	utility
+set the alarm to go off at 9 tomorrow	alarm	utility
+i would like to know what my income is	income	work
+what is playing	what_song	home
+set a timer for 5 minutes from now	timer	utility
+i need to know where to locate when my gas bill is due	bill_due	banking
+what's the current status of the credit card i applied for	application_status	credit_cards
+do i need a visa to spain	international_visa	travel
+when should my tires be changed next	tire_change	auto_and_commute
+i would like help moving money between accounts	transfer	banking
+let me know how much money i will need to spend on paying bills	bill_balance	banking
+can we talk in french	change_language	meta
+do you mind if i ask your name	what_is_your_name	small_talk
+that statement was correct	yes	meta
+while in tulsa, if i use my card, would i be charged more	international_fees	credit_cards
+i need to know how you are doing today	greeting	small_talk
+how can i order more checks for my regions bank account	order_checks	banking
+who's your creator	who_made_you	small_talk
+how can up my credit limit	credit_limit_change	credit_cards
+i want to to schedule maintenance on my vehicle	schedule_maintenance	auto_and_commute
+this credit card's apr is what	apr	credit_cards
+what name do you use to talk about me	user_name	meta
+when is my meeting with jack for	meeting_schedule	work
+i need gas so what should i get	gas_type	auto_and_commute
+give me some options on what to cook for dinner	meal_suggestion	kitchen_and_dining
+it was good chatting	goodbye	small_talk
+later gater	goodbye	small_talk
+i need a recent transaction looked into	transactions	banking
+what potential hazards are there for going to spain	travel_alert	travel
+reserve a table at tropicana for 5 people under the name martins for 8pm	restaurant_reservation	kitchen_and_dining
+i'd like to start calling you jake	change_ai_name	meta
+how well is the gas mileage while i'm in the city	mpg	auto_and_commute
+skip to next track	next_song	home
+are the ratings for yardhouse good	restaurant_reviews	kitchen_and_dining
+i didn't catch that	repeat	meta
+can you see if i can get a higher limit on my discovery card	credit_limit_change	credit_cards
+ai, how are you feeling	greeting	small_talk
+are you one of my employees	who_do_you_work_for	small_talk
+do you remember where i left my cellphone	find_phone	utility
+i think we should reserve dad's regular table friday for 6 people, use his name, make that close to 4:00 pm at the club	restaurant_reservation	kitchen_and_dining
+can i use baking soda instead of baking powder	ingredient_substitution	kitchen_and_dining
+calculate how much i earn from my job	income	work
+do you know any fun facts about the ocean	fun_fact	small_talk
+where are there current travel alerts	travel_alert	travel
+is my reservation set for john at bardenay	confirm_reservation	kitchen_and_dining
+how much is my water and sewer	bill_balance	banking
+what do i earn from my job	income	work
+add god's plan by drake to my playlist	update_playlist	home
+this is a true statement	yes	meta
+i am curious about whether you have pets	do_you_have_pets	small_talk
+credit limit change	credit_limit_change	credit_cards
+when am i paid or how often	payday	work
+i want to report my discover card as lost	report_lost_card	credit_cards
+hi what's up	greeting	small_talk
+which type of gas should i get	gas_type	auto_and_commute
+what spanish word means hello	translate	travel
+how much am i paid	income	work
+what's it doing outside right now	weather	utility
+could you inform me of when i last got my car checked	last_maintenance	auto_and_commute
+what other names can i give you	change_ai_name	meta
+i want to make sure my reservation for 5 at mcdonalds is still set	confirm_reservation	kitchen_and_dining
+does my visa have international transaction fees	international_fees	credit_cards
+i really don't have a clue	maybe	meta
+life has what meaning or what's the secret to it	meaning_of_life	small_talk
+how much farther can i drive on the gas i have	gas	auto_and_commute
+hi ai	greeting	small_talk
+set up whisper mode	whisper_mode	meta
+next song please	next_song	home
+what do you put in a tibetan omelette	ingredients_list	kitchen_and_dining
+transfer $20000 from my savings account to checking account	transfer	banking
+i want a step by step explanation of how to change the oil in my car	oil_change_how	auto_and_commute
+i need you to roll a dice that has six sides and tell me what it lands on	roll_dice	utility
+please cancel my dinner reservation	cancel_reservation	kitchen_and_dining
+i want to know some trivia about our solar system	fun_fact	small_talk
+the sound is too low	change_volume	meta
+is it safe to travel to iceland	travel_alert	travel
+what is the exchange rate between us dollars and japanese yen	exchange_rate	travel
+what's the status of my southwest flight	flight_status	travel
+when should i expect my next paycheck	payday	work
+how many times have i used my annual leave	pto_used	work
+need airplane ridge from philadelphia to atlanta leaving on the 5th of june and returning on the 8th of june	book_flight	travel
+that isn't the right answer	no	meta
+please set my account as frozen	freeze_account	banking
+can you remove that event from my calendar, please	calendar_update	home
+what's the current time	time	utility
+what is the current day	date	utility
+count the number of the letter a in happiness	spelling	utility
+has my mastercard application been processed	application_status	credit_cards
+help - i can't find my w-2	w2	work
+what are the calories in a cookie	calories	kitchen_and_dining
+speak in a male voice	change_accent	meta
+can you tell me how changes on my insurance policy can be made	insurance_change	work
+i need to know when i will next have the day off	next_holiday	work
+help me convert kilos to pounds	measurement_conversion	utility
+where is my w-2	w2	work
+how do i set up direct deposit for my first national account	direct_deposit	work
+please give me my last ten debit card transactions in the month of december	transactions	banking
+how long to washington dc on a bus	distance	auto_and_commute
+gas type needed for this car	gas_type	auto_and_commute
+at around noon what is the traffic typically like on the route to the hopsital	traffic	auto_and_commute
+append my playlist with smooth operator by sade	update_playlist	home
+what is my card's apr	apr	credit_cards
+i need to pay my cable bill	pay_bill	banking
+share my location with brad and terry	share_location	utility
+i need to make a call	make_call	utility
+i need to delete my doctor's appointment scheduled for march 15th from my calendar	calendar_update	home
+do i require a plug converter when i visit puerto rico	plug_type	travel
+tell me what day today is	date	utility
+will a jump start work if my batter is dead	jump_start	auto_and_commute
+set a 4 minute timer	timer	utility
+please abort the current task	cancel	meta
+i need an uber to the movies for me and 5 other people	uber	auto_and_commute
+"i'd like to send a text to jack, say ""hi"	text	utility
+my bronze card is missing i would like to report it as lost	report_lost_card	credit_cards
+can you do some research about the best places to travel	travel_suggestion	travel
+can you tell me what your refer to me as	user_name	meta
+set my alarm for six tomorrow morning	alarm	utility
+i lost my card and need to report it	report_lost_card	credit_cards
+how do i make lemon merengue pie	recipe	kitchen_and_dining
+will someone please look at my check engine light that is on	schedule_maintenance	auto_and_commute
+what are the rules for carry on luggage for delta	carry_on	travel
+when's the electric bill due	bill_due	banking
+i need to get an appointment for car maintenance	schedule_maintenance	auto_and_commute
+i'm really not sure	maybe	meta
+what types of subjects do you know	what_can_i_ask_you	small_talk
+please roll dice	roll_dice	utility
+how soon is my next day off	next_holiday	work
+create an alarm for me	alarm	utility
+tell me how to transfer my 401k	rollover_401k	work
+what's the minimum payment on my gas bill	min_payment	banking
+how many pesos can i get for one dollar	exchange_rate	travel
+what is the traffic like on the way to north shore	traffic	auto_and_commute
+how many vacation days do i have saved	pto_balance	work
+can you use the whisper voice	whisper_mode	meta
+in brooklyn, i need a hotel room for 4 from 3/15 until 3/20	book_hotel	travel
+for what reason is my account blocked	account_blocked	banking
+i need your name	what_is_your_name	small_talk
+how is a vacation request made	pto_request	work
+tell the kids where i am	share_location	utility
+can you tell me what a septuagenarian is	definition	utility
+what time is it right now in paris	time	utility
+ran out of tissues and need you to put an order in for more asap	order	home
+my debit card was rejected at ella's and i want to know why	card_declined	credit_cards
+later	goodbye	small_talk
+will i receive a fee if i use my card in ireland	international_fees	credit_cards
+please book me a place to stay in phoenix from the 5th to the 9th of march	book_hotel	travel
+search for the nearest expressway to the airport	directions	auto_and_commute
+i need a pto request put in for the weekend of june 1st to june 2nd	pto_request	work
+is there lettuce on my shopping list	shopping_list	home
+what are the benefits associated with my insurance	insurance	work
+are there any transaction fees associated with my navy federal card if i am in germany	international_fees	credit_cards
+use my capital one account to pay for my gas bill	pay_bill	banking
+what steps do i need to follow to jump start my car	jump_start	auto_and_commute
+go back to the default settings please	reset_settings	meta
+could you please get out of whisper mode	whisper_mode	meta
+give me instructions for changing the oil in a 2015 passat	oil_change_how	auto_and_commute
+are there any good restaurants in nyc that serve barbecue	restaurant_suggestion	kitchen_and_dining
+can you please read me the routing number to pnc	routing	banking
+how is my name listed	user_name	meta
+take lunch off my calendar on the 3rd	calendar_update	home
+i need to get a hotel in phoenix near chase field from january 4th to the 8th	book_hotel	travel
+i want to know how busy ruby tuesday will be at around 8:45 pm	how_busy	kitchen_and_dining
+am i allowed carry ons for my flight with westjet to edmonton	carry_on	travel
+how do i check my rewards for my gold card	rewards_balance	credit_cards
+on the speaker what song is playing	what_song	home
+where are the good thai restaurants in atlanta	restaurant_suggestion	kitchen_and_dining
+please find out how many days off i have used by this point	pto_used	work
+who controls you	who_do_you_work_for	small_talk
+i'd like to set up direct deposit	direct_deposit	work
+my bags did not arrive here at smf	lost_luggage	travel
+what is the definition of zesty	definition	utility
+is my package able to be tracked by you	order_status	home
+when did i last get my car tuned up	last_maintenance	auto_and_commute
+help me pay my electric bill	pay_bill	banking
+read me my reminders list	reminder	home
+will i get charged extra if i use my card while in italy	international_fees	credit_cards
+on my vacation request, what is the latest information	pto_request_status	work
+i need to change my pin number for my savings account	pin_change	banking
+how many gallons do i have left	gas	auto_and_commute
+i'd like to set up a direct deposit for my paycheck	direct_deposit	work
+tell me what is on my calendar for may 3	calendar	home
+could i please change your name to alicia	change_ai_name	meta
+can you translate i love you into french for me	translate	travel
+how do i set up direct deposit for my paycheck	direct_deposit	work
+does germany have any travel alerts i should be aware of	travel_alert	travel
+apples expire in how long	food_last	kitchen_and_dining
+what's my visa cards balance for rewards	rewards_balance	credit_cards
+please tell me my spending limit	credit_limit	credit_cards
+how much are my electric and heating bills	bill_balance	banking
+suggest a meal from italy to me	meal_suggestion	kitchen_and_dining
+please start whisper mode	whisper_mode	meta
+i feel like it is time for me to sign up for a new credit card	new_card	credit_cards
+i was on delta flight ab123 out of new york and haven't been able to locate my luggage	lost_luggage	travel
+i want to explore a new place but don't know where i should go do you have any ideas	travel_suggestion	travel
+what is the meaning of hyperactive	definition	utility
+can i redeem my points on gas	redeem_rewards	credit_cards
+speak mandarin	change_language	meta
+i need you to buy a laptop	order	home
+how many calories would i estimate for fettuccine alfredo	calories	kitchen_and_dining
+tell my bank that i will be taveling to south korea	travel_notification	travel
+i got to report fraudulent activity on my credit card	report_fraud	banking
+current location please	current_location	auto_and_commute
+please tell me how to change the oil in my car	oil_change_how	auto_and_commute
+tell me about the chase credit card application process	new_card	credit_cards
+what's your hobbies	what_are_your_hobbies	small_talk
+what is 5 in yen and rubles	exchange_rate	travel
+check how many days off i've taken	pto_used	work
+what kind of fuel does my vehicle run on	gas_type	auto_and_commute
+please move $100 from my checking to saving account	transfer	banking
+put a hundred dollars in my ally account from bluebird	transfer	banking
+when's the next time my job'll give me a day to myself	next_holiday	work
+can you switch me to a new insurance plan	insurance_change	work
+whats 5 feet in inches	measurement_conversion	utility
+so my card was declined at fry's and i wanna know why	card_declined	credit_cards
+i wanna know how many pounds are in 10 kilos	measurement_conversion	utility
+what meetings do i have today between noon and one	meeting_schedule	work
+find something fun for me to do in dallas	travel_suggestion	travel
+later!	goodbye	small_talk
+turn on the whisper voice	whisper_mode	meta
+i can't hear you and need you to turn up the volume	change_volume	meta
+do you know london's timezone	timezone	travel
+how healthy is salad	nutrition_info	kitchen_and_dining
+what is the core meaning of life	meaning_of_life	small_talk
+if i go to uganda, do i need an international visa	international_visa	travel
+how do you spell syzygy	spelling	utility
+i broke my card scraping snow off the windshield	damaged_card	credit_cards
+how many points are on my speedway card right now	rewards_balance	credit_cards
+tell me what's in tacos	ingredients_list	kitchen_and_dining
+who is your maker	who_made_you	small_talk
+i want you to help me make a decision by flipping a coin	flip_coin	utility
+how many total meetings will i have between 2 and 5	meeting_schedule	work
+i would like to alter my insurance plan	insurance_change	work
+what's my salary for this year	income	work
+what do i have on my reminder list	reminder	home
+i would like to know the mpg for this car	mpg	auto_and_commute
+how many teaspoons in one tablespoon	measurement_conversion	utility
+i was wondering what my credit score is	credit_score	credit_cards
+yeah, that's how it is	yes	meta
+what is the best way to keep my credit score from going down	improve_credit_score	credit_cards
+bye bye then	goodbye	small_talk
+i wonder if you can explain the meaning of life	meaning_of_life	small_talk
+has my supervisor approved my vacation	pto_request_status	work
+please tell me if there are meeting rooms available between 9:00 am and 11:00 am	schedule_meeting	work
+chicken noodle casserole is made from what	ingredients_list	kitchen_and_dining
+i think i lost my phone	find_phone	utility
+i'm looking for a back and forth flight from lax to portland for w to sunday	book_flight	travel
+my name is jason	change_user_name	meta
+where is your country of origin	where_are_you_from	small_talk
+change the pin on my bofa account to 3892	pin_change	banking
+play that song hey	play_music	home
+what is the credit card apr if you could fill me in	apr	credit_cards
+turn the tv to on right now	smart_home	home
+should i buy a specific plug type when in china	plug_type	travel
+is vacation a go	pto_request_status	work
+how many miles until i get to the beach	distance	auto_and_commute
+i accidentally put my credit card in the shredder	damaged_card	credit_cards
+what is the interest rate on my bank of america credit card	interest_rate	banking
+are you ai or a real person please	are_you_a_bot	small_talk
+i'm traveling to london soon and want to inform my bank	travel_notification	travel
+what is the interest rate at chase	interest_rate	banking
+what does 6 x 1 equal	calculator	utility
+can i substitute bacon for sausage	ingredient_substitution	kitchen_and_dining
+what's the routing number for my bank of america account	routing	banking
+i would like to pair this with my new phone	sync_device	meta
+tel me the credit limit for my credit card	credit_limit	credit_cards
+don't be synced to my phone anymore	sync_device	meta
+are there any transaction fees associated with my amex card if i am in france	international_fees	credit_cards
+text jeff and tell him to pay the bill	text	utility
+where should i go out for food to	restaurant_suggestion	kitchen_and_dining
+i would like a reminder	reminder_update	home
+when does my card expire, the one ending in 1234	expiration_date	credit_cards
+i want a lesson on changing my oil	oil_change_how	auto_and_commute
+can you check my reservations for mortons under david winters	confirm_reservation	kitchen_and_dining
+could you speak a little more slowly	change_speed	meta
+las vegas timezone please	timezone	travel
+what's tomorrow's date	date	utility
+how many points do i have with my american express	rewards_balance	credit_cards
+slow down your speech	change_speed	meta
+whats my count of vacation days used thus far	pto_used	work
+i'm calling you rupert from now on	change_ai_name	meta
+what health benefits do i have	insurance	work
+what should i do in france	travel_suggestion	travel
+is it possible to rollover my 401k	rollover_401k	work
+how much is usd vs cad	exchange_rate	travel
+when taking a flight with porter to toronto, how many carry ons can i take	carry_on	travel
+please tell me my current gps coordinates	current_location	auto_and_commute
+can you tell me when our next day off is	next_holiday	work
+what date is another paycheck due	payday	work
+can you call someone	make_call	utility
+how many meetings do i have today	meeting_schedule	work
+i saw suspicious activity on my bank account	report_fraud	banking
+i am going to need you to say that again	repeat	meta
+will you help me book a place to stay from monday to friday in pittsburgh	book_hotel	travel
+can you check on the status of my orders at amazon	order_status	home
+is it possible to book 10 people from monday to tuesday in manhattan	book_hotel	travel
+remove wrestlemania from my calendar for may 7th	calendar_update	home
+i sat on my credit card and broke it in half and need it replaced	damaged_card	credit_cards
+why is there a hold on my capital one checking account	account_blocked	banking
+i would like to know what type of things you can help me with	what_can_i_ask_you	small_talk
+please jump to the song that follows this one	next_song	home
+what's the exchange rate betwen usd and euros	exchange_rate	travel
+do i need to get any shots before i travel to zimbabwe	vaccines	travel
+give me the 7 day forecast	weather	utility
+what sorts of subjects do you know about	what_can_i_ask_you	small_talk
+can i use the plug i use at home when traveling in south america	plug_type	travel
+what interest rate am i getting currently from oak bank	interest_rate	banking
+put laundry on my chore list	todo_list_update	home
+i need a table for two at the havana at nine	restaurant_reservation	kitchen_and_dining
+tell me what cas is needed for this car	gas_type	auto_and_commute
+can i take a bus to the grand canyon	directions	auto_and_commute
+if i want to make a vacation request, how do i do it	pto_request	work
+i think someone's using my visa card without my permission	report_fraud	banking
+about how much will my federal taxes be	taxes	work
+speak faster, please	change_speed	meta
+i need to disconnect from my phone	sync_device	meta
+i want to make a reservation for 8 pm at red robin for 3	restaurant_reservation	kitchen_and_dining
+what about changing the sugar for baking soda	ingredient_substitution	kitchen_and_dining
+check my visa account and see if i have enough money for dinner tonight	balance	banking
+take lunch with steven off of my calendar	calendar_update	home
+i check my credit card company to see if my points are good to go	redeem_rewards	credit_cards
+i have charges on my amex card i didn't make	report_fraud	banking
+my check engine light is on so is anyone available to check it out for me	schedule_maintenance	auto_and_commute
+what is my next day off	next_holiday	work
+assist me to set up direct deposit	direct_deposit	work
+what's the required fuel type for my car	gas_type	auto_and_commute
+can you put a block on my chase account right away	freeze_account	banking
+absolutely	yes	meta
+tire pressure please	tire_pressure	auto_and_commute
+i need to confirm that i have a reservation at red robin for josh	confirm_reservation	kitchen_and_dining
+remove celebrate anniversary from my calendar	calendar_update	home
+from now on, refer to me as chuck	change_user_name	meta
+how long do you cook a hamburger for	cook_time	kitchen_and_dining
+who assembled you	who_made_you	small_talk
+when did my car get serviced last	last_maintenance	auto_and_commute
+quit talking	cancel	meta
+can i update my insurance policy	insurance_change	work
+is the bill due	bill_due	banking
+are reservations allowed at burger king	accept_reservations	kitchen_and_dining
+tell me how i should cash in my rewards for my citibank card	redeem_rewards	credit_cards
+what do you think life is really about	meaning_of_life	small_talk
+will nobu take reservations	accept_reservations	kitchen_and_dining
+what's the plug type in honduras	plug_type	travel
+please put watering the plants on my to do list	todo_list_update	home
+what types of things do you like to do in your spare time	what_are_your_hobbies	small_talk
+what is my bill's minimum payment	min_payment	banking
+what's the time	time	utility
+i have to send a text	text	utility
+how would i say what is your name if i were french	translate	travel
+what is the mpg on this car	mpg	auto_and_commute
+when does my oil need some changing	oil_change_when	auto_and_commute
+do i have more than $100 in my pnc account	balance	banking
+what is the minimum i can pay for my telephone bill	min_payment	banking
+i would like to have language set to spanish, please	change_language	meta
+i am not sure	maybe	meta
+since i ran out , order more bread	order	home
+what is my current fuel level	gas	auto_and_commute
+in 5 days from today, what will the date be	date	utility
+tell me how to get new insurance	insurance_change	work
+help me get an uber	uber	auto_and_commute
+volume 4 set	change_volume	meta
+please change the ai name for me	change_ai_name	meta
+i would like to use my credit card points	redeem_rewards	credit_cards
+when will my new visa get here	replacement_card_duration	credit_cards
+what are you, a bot or human	are_you_a_bot	small_talk
+look up how many of my days off i have used so far	pto_used	work
+on flight america airlines in o'hare lost luggage	lost_luggage	travel
+could you call me a different name, please	change_user_name	meta
+when is my credit card going to expire	expiration_date	credit_cards
+tell me the amount of calories in muffins	calories	kitchen_and_dining
+what's the best way to make a broccoli salad	recipe	kitchen_and_dining
+im going to be in jamaica from october 4th until october 8th	travel_notification	travel
+change accent to british male	change_accent	meta
+i want help rolling over my 401k	rollover_401k	work
+how long can i expect to wait for a restaurant table	how_busy	kitchen_and_dining
+please make sure oranges are on my shopping list	shopping_list_update	home
+i was in thailand trying to buy candies and my card got declined	card_declined	credit_cards
+when is my next oil change due	oil_change_when	auto_and_commute
+how is water spelled	spelling	utility
+grab me a new belt on amazon please	order	home
+where do you originate from	where_are_you_from	small_talk
+i have no knowledge of that	maybe	meta
+thanks please	thank_you	small_talk
+tell me the expiry date of my credit card	expiration_date	credit_cards
+what is the routing number for pnc	routing	banking
+what is the state of the weather in seattle	weather	utility
+what benefits do i have for insurance	insurance	work
+what is the average of 54, 23, 43, 12, and 442	calculator	utility
+apply for a bank of america travel rewards credit card	new_card	credit_cards
+how do i locate when my gas bill is do	bill_due	banking
+would you say that you are now a pet owner	do_you_have_pets	small_talk
+when should i take an apple pie out	cook_time	kitchen_and_dining
+what was the issue with my card yesterday	card_declined	credit_cards
+who made the ai	who_made_you	small_talk
+can you help me get on a new united healthcare insurance plan	insurance_change	work
+that isn't correct	no	meta
+when did i get my car inspected last	last_maintenance	auto_and_commute
+ai, address me as deb when speaking to me	change_user_name	meta
+will you be sure to add this current song to my sleep playlist	update_playlist	home
+i need a flight booked from dallas to miami on american airlines	book_flight	travel
+will you notify me when my new card is on the way	replacement_card_duration	credit_cards
+reasons that us bank would place a hold on my account	account_blocked	banking
+let me know what the routing number for my civista account is	routing	banking
+tell me my usage of vacation days	pto_used	work
+what kind of gas do i put in my car	gas_type	auto_and_commute
+what month does my credit card expire	expiration_date	credit_cards
+i need a good italian dish	meal_suggestion	kitchen_and_dining
+what's the answer to it all	meaning_of_life	small_talk
+please walk me through the steps necessary to rollover my 401k	rollover_401k	work
+i did not hear what you said	repeat	meta
+i need to take out the trash please remind me	reminder_update	home
+female voice please	change_accent	meta
+who gave you your name	what_is_your_name	small_talk
+take off fries from the shopping list	shopping_list_update	home
+what are the best restaurants open tonight	restaurant_suggestion	kitchen_and_dining
+share the nutrition info for spaghetti with me	nutrition_info	kitchen_and_dining
+reset to default settings please	reset_settings	meta
+does it show me as having a reservation for tomorrow at 5	confirm_reservation	kitchen_and_dining
+can i talk to someone about why there is a hold on my checking account	account_blocked	banking
+do you know if i can make reservations at bj's	accept_reservations	kitchen_and_dining
+can you help me increase my credit limit	credit_limit_change	credit_cards
+please spell the word umbrella	spelling	utility
+costa mesa current weather	weather	utility
+who were you made by	who_made_you	small_talk
+during what month will my card's expiration date fall on	expiration_date	credit_cards
+how are you	greeting	small_talk
+how long is it until my credit card expires	expiration_date	credit_cards
+has the application i put in for a new visa been processed	application_status	credit_cards
+what do you want me to refer to you as	what_is_your_name	small_talk
+do you know where i left my phone	find_phone	utility
+what is the expiration date on my chase card	expiration_date	credit_cards
+how long does it take to get to houston by bus	distance	auto_and_commute
+how many sick days do i have	pto_balance	work
+it was nice to converse with you	goodbye	small_talk
+i would like to know my water bill minimum payment	min_payment	banking
+i need for you to connect to my phone	sync_device	meta
+tell me the least i can pay	min_payment	banking
+what is the name of my insurance plan	insurance	work
+insurance benefit details	insurance	work
+do i have to file a tax form	taxes	work
+do you have a list of ingredients that i'll need for blondies	ingredients_list	kitchen_and_dining
+what transactions did i make on electronics this morning after 6am	transactions	banking
+can i start talking to you in spanish	change_language	meta
+set an alarm for 6am, please	alarm	utility
+note any travel alerts for haiti	travel_alert	travel
+i need to share my location with noel	share_location	utility
+what amount is my income	income	work
+i know that is true	yes	meta
+what is 10 + 20	calculator	utility
+what is the status of my vacation request	pto_request_status	work
+have my app for a new card been processed yet	application_status	credit_cards
+when is the next office holiday	next_holiday	work
+what is your birthday again	how_old_are_you	small_talk
+ai locate my phone	find_phone	utility
+any unique trivia about beats headphones	fun_fact	small_talk
+what's the cooking time for the cake	cook_time	kitchen_and_dining
+where's home for you	where_are_you_from	small_talk
+special thanks to you	thank_you	small_talk
+help me to disconnect from my phone	sync_device	meta
+can you tell me my routing number for summit	routing	banking
+where do i go to view the interest rate on my brighton account	interest_rate	banking
+put milk on my shopping list cause i'm out of it	shopping_list_update	home
+i need my reservation to be cancelled for nugget to xiomara's restaurant	cancel_reservation	kitchen_and_dining
+how do i change my credit limit	credit_limit_change	credit_cards
+see you later	goodbye	small_talk
+what's the due date for my american express payment	bill_due	banking
+i don't have any more steak, please put that on my grocery list	shopping_list_update	home
+how much have i spent on food recently	spending_history	banking
+how can i prevent my credit score from dropping	improve_credit_score	credit_cards
+what can i do to maintain good credit	improve_credit_score	credit_cards
+is there a meeting room available between one and two	schedule_meeting	work
+tell me something funny about love	tell_joke	small_talk
+provide me the routing number for my fed account	routing	banking
+are there any transaction fees associated with my amex card if i am in belgium	international_fees	credit_cards
+can you take carrots off my shopping list and add soda	shopping_list_update	home
+does sweden use the same kind of socket or do i need a converter	plug_type	travel
+i want an alarm set	alarm	utility
+my name is nick	change_user_name	meta
+can you add passionfruit by yaeji to my playlist	update_playlist	home
+i was at home depot trying to buy plants and my card got declined	card_declined	credit_cards
+tell me why i get an error logging in to my bank account	account_blocked	banking
+am i able to order more checkbooks for my chase account	order_checks	banking
+set my alarm for 6am tomorrow	alarm	utility
+please tell me if a coin lands on tails	flip_coin	utility
+do you know the apr on my chase credit card	apr	credit_cards
+what day did i last have the oil in my car changed	last_maintenance	auto_and_commute
+can i call a restaurant	make_call	utility
+show me my credit score please	credit_score	credit_cards
+how bad is traffic at 8 on the way to burger king	traffic	auto_and_commute
+please tell me if my application for the hsbc card has gone through yet	application_status	credit_cards
+it was lovely to speak with you, bye bye	goodbye	small_talk
+is there a particular name i should call you	what_is_your_name	small_talk
+please cancel your present task	cancel	meta
+youre a doll	thank_you	small_talk
+do i have money in my wells fargo account for nike's	balance	banking
+what is the weather doing in austin	weather	utility
+are the reviews good or bad for burger king	restaurant_reviews	kitchen_and_dining
+one cup of almonds has how many calories	calories	kitchen_and_dining
+tell me united's carry on policy	carry_on	travel
+will it snow this weekend	weather	utility
+have i spent too much of my paycheck on donuts lately	spending_history	banking
+change the pin on my chase account to be 1234	pin_change	banking
+i would like to know what my salary is at this time	income	work
+what's the ac set to	smart_home	home
+my luggage is lost	lost_luggage	travel
+remind me that time is up in sixty minutes	timer	utility
+how long until my oil needs to be changed	oil_change_when	auto_and_commute
+turn down your speaker	change_volume	meta
+what's the amount of my income	income	work
+what do i need to get when i go shopping	shopping_list	home
+what is my pay grade at work	income	work
+i'm looking for a roundtrip flight from oma to sps august 1st, 2019 to august 2nd, 2019	book_flight	travel
+thanks for talking	goodbye	small_talk
+what time can i expect to be seated at this restaurant	how_busy	kitchen_and_dining
+change from whisper mode	whisper_mode	meta
+i need to switch the language for your responses	change_language	meta
+i need the tow truck to be given my gps coordinates	share_location	utility
+can i use something else if i don't have eggs	ingredient_substitution	kitchen_and_dining
+i want my chase account blocked immediately	freeze_account	banking
+i want to listen to my maroon 5 playlist, play it for me	play_music	home
+remove moms birthday from calendar	calendar_update	home
+switch to whisper please	whisper_mode	meta
+can you create a reminder	reminder_update	home
+what's my current health care plan	insurance	work
+add dentist appointment to my calendar for march 1	calendar_update	home
+how can i request a new credit card	replacement_card_duration	credit_cards
+what will you call me	user_name	meta
+how and where are my w2 forms given	w2	work
+i want to buy a plane ticket to travel from miami to honolulu on the 29th of february i need a return flight on march 5th	book_flight	travel
+will it rain today	weather	utility
+since i am traveling to asia, i need to inform the bank	travel_notification	travel
+is new this a good insurance plan for me	insurance_change	work
+tell me what name you have for me	user_name	meta
+tv on turn	smart_home	home
+tell me my car's tires' air pressure	tire_pressure	auto_and_commute
+may i order more checks for my well's fargo account	order_checks	banking
+what time is it right now in adelaide, australia	time	utility
+will you summarize my health benefits	insurance	work
+let me know how much gas i have in total	gas	auto_and_commute
+please give me the nutritional information for an egg	nutrition_info	kitchen_and_dining
+send chris a text message that says stop for milk on your way home	text	utility
+could you put a stop on my bank account, please	freeze_account	banking
+y check engine light currently came on and i need assistance with it	schedule_maintenance	auto_and_commute
+no that isn't right	no	meta
+can we please	yes	meta
+what timezone is new york in	timezone	travel
+i need a timer that is set at 1 hour exactly	timer	utility
+what is my bank of america card's rewards balance	rewards_balance	credit_cards
+could you teach me how to jump start a car	jump_start	auto_and_commute
+let me know what is on my reminder list	reminder	home
+ai toss the dice	roll_dice	utility
+share my location with mom, please	share_location	utility
+how much longer until my credit card application is checked	application_status	credit_cards
+can you tell me the mpg of this car	mpg	auto_and_commute
+how high is my credit limit for my navy federal card	credit_limit	credit_cards
+are there activities that you enjoy doing in your free time	what_are_your_hobbies	small_talk
+what's my discover card reward balance	rewards_balance	credit_cards
+where's my luggage for american airlines flight ab123 out of denver	lost_luggage	travel
+search for travel alerts for kenya	travel_alert	travel
+tell me flight dl123's statud	flight_status	travel
+i want to pay my insurance bill	pay_bill	banking
+turn my drake playlist on	play_music	home
+are there meeting rooms available between 4-8	schedule_meeting	work
+i lost my phone	find_phone	utility
+i need to get a new motorcycle insurance plan	insurance_change	work
+find the closest cvs near galleria mall	directions	auto_and_commute
+i think that's true	yes	meta
+do you own any pet at all	do_you_have_pets	small_talk
+what what kind money is available in my bank accounts	balance	banking
+can you please tell me the interest rate for cash advances on my visa	interest_rate	banking
+is this human or a robot	are_you_a_bot	small_talk
+scrap	cancel	meta
+i need you to turn the tv on now	smart_home	home
+play the next song queued up	next_song	home
+what is the apr on my aaa visa card	apr	credit_cards
+can we change your name to clara	change_ai_name	meta
+i would like to make a call to sal	make_call	utility
+can you tell me what 30% off 235 is, please	calculator	utility
+start my playlist	play_music	home
+what should i do if my car battery is dead	jump_start	auto_and_commute
+my luggage has disappeared	lost_luggage	travel
+can you tell me the total cost of my bills please	bill_balance	banking
+what is the derivative of x squared plus 5	calculator	utility
+is there a way to change the voice to male	change_accent	meta
+get me a meeting room for 9am on friday	schedule_meeting	work
+i would like to get some more checkbooks mailed to me	order_checks	banking
+can you tell me what my tire pressure is	tire_pressure	auto_and_commute
+how much do i make	income	work
+i get an error message when i try logging in to capital one that says i'm locked out	account_blocked	banking
+name a few good steakhouses in chicago	restaurant_suggestion	kitchen_and_dining
+can i change your name to bob	change_ai_name	meta
+on feb 3rd i changed my tires are they still good	tire_change	auto_and_commute
+go ahead and pay my american express bill now	pay_bill	banking
+bring up my location	current_location	auto_and_commute
+peace out!	goodbye	small_talk
+what is the underlying purpose to life	meaning_of_life	small_talk
+i need a direct deposit	direct_deposit	work
+i want to find a new credit card to sign up for	new_card	credit_cards
+get me an uber for 3 people uptown	uber	auto_and_commute
+i wanna know the balance of my bank of american account	balance	banking
+tell me if there is an event called annual physical in my calendar	calendar	home
+what is the total number of days that i have taken off work since january	pto_used	work
+dial x's phone please	make_call	utility
+i will rollover my 401k	rollover_401k	work
+can i use sharp cheddar instead of muenster	ingredient_substitution	kitchen_and_dining
+i don't know how to jump start my car, help!	jump_start	auto_and_commute
+how much air do i have in my tires	tire_pressure	auto_and_commute
+how would you put what life is all about	meaning_of_life	small_talk
+can my volume be increased	change_volume	meta
+the next holiday is when	next_holiday	work
+does hannahs in galloway take reservations	accept_reservations	kitchen_and_dining
+i need a routing number	routing	banking
+show me the ingredients that i need for ceviche	ingredients_list	kitchen_and_dining
+turn the fan on	smart_home	home
+make a purchase of doritos	order	home
+what day is my bill due	bill_due	banking
+go ahead and change the pin on my bank of america account to be 1234	pin_change	banking
+show me a hotel that has good reviews in kansas city	book_hotel	travel
+i am hoping to switch insurance plans	insurance_change	work
+how high is my credit limit for my childrens place card	credit_limit	credit_cards
+i'd like an italian meal suggestion	meal_suggestion	kitchen_and_dining
+is my savings interest rate too low	interest_rate	banking
+i don't need toilet paper anymore; take it off my shopping list	shopping_list_update	home
+read me my schedule for march 2	calendar	home
+what would the date be 5 days from today	date	utility
+how much do i spend going out to eat	spending_history	banking
+please translate grocery into french for me	translate	travel
+has my manager at mcdonald's confirmed i can take vacation	pto_request_status	work
+you sound like a bot	are_you_a_bot	small_talk
+i need to know what is currently on my calendar for friday the 1st	calendar	home
+i need an uber for 7 people to go to safire restaurant	uber	auto_and_commute
+just toss a coin	flip_coin	utility
+transfer my cash reward balance to my bank	redeem_rewards	credit_cards
+can you make a note for my next oil change	oil_change_when	auto_and_commute
+i need to see my shopping transactions	transactions	banking
+i will determine it with a coin flip	flip_coin	utility
+how many days off have i taken so far this year	pto_used	work
+cancel my 6:00 reservation at the cheesecake factory	cancel_reservation	kitchen_and_dining
+would you tell me how to get to walmart by bus	directions	auto_and_commute
+one and three pm are there meeting rooms open	schedule_meeting	work
+i can't use my card because i damaged it	damaged_card	credit_cards
+how's the mpg for this on the freeway	mpg	auto_and_commute
+could you please state the apr for the credit card	apr	credit_cards
+show me 5-star dining establishments in nashville	restaurant_suggestion	kitchen_and_dining
+do i have anything on my todo list	todo_list	home
+i need help to transfer my 401k	rollover_401k	work
+can you increase my credit limit to one thousand dollars	credit_limit_change	credit_cards
+tell me a joke about politicians	tell_joke	small_talk
+please tell me if a coin flip lands on heads or tails	flip_coin	utility
+you need to go back to the original settings	reset_settings	meta
+tell me how many carry ons i can take on a flight with southwest airlines to dallas	carry_on	travel
+what amount of millimeters are in 50 kilometers	measurement_conversion	utility
+i need to uber somewhere	uber	auto_and_commute
+when do i get my paycheck	payday	work
+can you tell me all of the things on my to do list for tomorrow, please	todo_list	home
+go ahead and close the reservation	cancel_reservation	kitchen_and_dining
+repeat that once more	repeat	meta
+i need to set a meeting with tom at 6pm	schedule_meeting	work
+find out what wait times are like right now at olive garden	how_busy	kitchen_and_dining
+how much in taxes will i owe	taxes	work
+can you slow down your speech	change_speed	meta
+i need you to call the broker	make_call	utility
+please set an alarm for 5 am	alarm	utility
+i'll soon be travelling internationally; could you let my bank know	travel_notification	travel
+what's the preparation time for spaghetti	cook_time	kitchen_and_dining
+tell me the company that produces you and similar machines	who_made_you	small_talk
+call back my mom please	make_call	utility
+book me a car rental between january 1st to january 3rd in denver colorado and id prefer a ford	car_rental	travel
+i need to know when to expect my next paycheck	payday	work
+how many days so far have i taken off	pto_used	work
+i applied for a new credit card; did it process yet	application_status	credit_cards
+i need you to order some more lysol for me,please	order	home
+can you help me deal with this fraudulent transaction from verizon on my account	report_fraud	banking
+how many calories are in a cup of white rice	calories	kitchen_and_dining
+help me transfer $x from credit to debit	transfer	banking
+can i have a 2 sided dice	roll_dice	utility
+play beatles	play_music	home
+how many milliliters are in 2 gallons	measurement_conversion	utility
+stopped by target to get a mug but my card declines	card_declined	credit_cards
+let me know what my credit score is today	credit_score	credit_cards
+i want you to call me a different name so can you call me charchar	change_user_name	meta
+can i drink milk i've kept in the fridge since wednesday	food_last	kitchen_and_dining
+i cannot recall the pin for my savings account	pin_change	banking
+what does discretionary mean	definition	utility
+where can i find routing number for pnc	routing	banking
+is it possible to make reservations at the new york restaurant	accept_reservations	kitchen_and_dining
+what's traffic usually like around 5pm going to the bank	traffic	auto_and_commute
+when should i replace my tires sense i last replaced them on 3/21/17	tire_change	auto_and_commute
+what do people think about the sandwiches at wendy's	restaurant_reviews	kitchen_and_dining
+what is our purpose here on earth	meaning_of_life	small_talk
+tell me the nutrition info for a cup of milk	nutrition_info	kitchen_and_dining
+how long before i get to dallas , in time, not miles	distance	auto_and_commute
+can someone look at my check engine light	schedule_maintenance	auto_and_commute
+alert my bank and let them know that i'm travelling to china	travel_notification	travel
+what lowers you credit score	improve_credit_score	credit_cards
+show me where i am on a map	current_location	auto_and_commute
+how do i get to the leaning tower by bus	directions	auto_and_commute
+help me report my lost mastercard	report_lost_card	credit_cards
+tell me how to get my points from credit card use cashed in	redeem_rewards	credit_cards
+when is my next paycheck due	payday	work
+i'd like to be called frank	change_user_name	meta
+how many birthdays have you had	how_old_are_you	small_talk
+what's the current timezone in barcelona	timezone	travel
+can you help me figure out how to utilize my credit card points	redeem_rewards	credit_cards
+can you tell me if your a bot	are_you_a_bot	small_talk
+when is the next time i should change my oil	oil_change_when	auto_and_commute
+order more checks	order_checks	banking
+what steps do i need to take to report a card lost	report_lost_card	credit_cards
+can you assure me i have a table at taco bell at 7pm	confirm_reservation	kitchen_and_dining
+when will it rain next	weather	utility
+where do i go the transfer my 401k	rollover_401k	work
+yesterday, my card was declined	card_declined	credit_cards
+how many miles before i need my tires changed	tire_change	auto_and_commute
+could you tell me what the status of my day off request is	pto_request_status	work
+what do i do for a dead car battery	jump_start	auto_and_commute
+i'd like to augment my workout playlist with this tune	update_playlist	home
+how can i find out what my tire pressure is	tire_pressure	auto_and_commute
+can you find me a recipe for cheese cake	recipe	kitchen_and_dining
+can you describe your hobbies to me	what_are_your_hobbies	small_talk
+the song on speaker is what	what_song	home
+what's my vacation status	pto_request_status	work
+what would your age be	how_old_are_you	small_talk
+i need to know how to jump start my car	jump_start	auto_and_commute
+how do i get rewards from my visa card	redeem_rewards	credit_cards
+i would like to have march 5th's 5k added to my calendar	calendar_update	home
+my credit card has been stolen, please report it	report_lost_card	credit_cards
+set up a meeting with frank at 2pm	schedule_meeting	work
+you saved my name how	user_name	meta
+how can i redeem my credit card points	redeem_rewards	credit_cards
+at this location what are my gps coordinates	current_location	auto_and_commute
+will getting a credit card help my credit score	improve_credit_score	credit_cards
+whats the max i can spend on my visa	credit_limit	credit_cards
+contact uber and have them pick me up	uber	auto_and_commute
+i need help investigating a suspicious transaction	report_fraud	banking
+can you pull up how many points i've earned with travel card	rewards_balance	credit_cards
+where can i find the mall closest to here	directions	auto_and_commute
+please show me a recipe for chili	recipe	kitchen_and_dining
+my american saving bank was stolen	report_lost_card	credit_cards
+i ordered for delivery, has is arrived yet	order_status	home
+can you book me a place to stay in denver from wednesday to friday	book_hotel	travel
+how long will eggs last in the fridge	food_last	kitchen_and_dining
+how do i plan a vacation	pto_request	work
+i did not catch that, repeat what you just said	repeat	meta
+can you get me a table for 2 at diablo	restaurant_reservation	kitchen_and_dining
+can you read my to do list to me please	todo_list	home
+i need you to book me a flight from chicago to montpelier via united	book_flight	travel
+i want to know my routing number please	routing	banking
+has my order been shipped	order_status	home
+i gotta jump start my car	jump_start	auto_and_commute
+how do i make sure my credit doesn't fall	improve_credit_score	credit_cards
+what is the definition of intelligent	definition	utility
+the 21st, what is on my calendar	calendar	home
+what is the definition of incomprehensible	definition	utility
+speak in dutch	change_language	meta
+i want recommendations for good sushi spots in los angeles	restaurant_suggestion	kitchen_and_dining
+can you help me find someone to look at my car's engine because the light is on	schedule_maintenance	auto_and_commute
+i need to know what is on my shopping list	shopping_list	home
+thanks bye bye!	goodbye	small_talk
+what is spanish for hello	translate	travel
+it's definitely a maybe for that	maybe	meta
+how is a vacation request done	pto_request	work
+give me a fun fact about kangaroo	fun_fact	small_talk
+i need you to play the next song on this playlist	next_song	home
+what's the nearest starbucks	directions	auto_and_commute
+whats the status of my frontier flight	flight_status	travel
+i need to know what traffic is going to be like at 3:00 pm on the new jersey turnpike heading into camden from north jersey	traffic	auto_and_commute
+when should i change this oil	oil_change_when	auto_and_commute
+suggest a meal from peru for me	meal_suggestion	kitchen_and_dining
+do i have anything on my calendar for march 2nd	calendar	home
+what thoughts do you have about making dinnner tonight	meal_suggestion	kitchen_and_dining
+how is miami time zone like	timezone	travel
+my card is cracked, please tell the card company	damaged_card	credit_cards
+put on the next song	next_song	home
+i really want to know my todo list again thanks	todo_list	home
+what are the fees for using my card in toronto	international_fees	credit_cards
+place an order for my whole shopping list	order	home
+i need to hear reviews for panda express	restaurant_reviews	kitchen_and_dining
+how do i get my check directly deposited	direct_deposit	work
+what's the average number of calories in one cup of tomato soup	calories	kitchen_and_dining
+i would like to apply for a credit card	new_card	credit_cards
+does using my card in portland charge me extra	international_fees	credit_cards
+are there any places nearby i can rent a car at	car_rental	travel
+a volume of 4 is ideal please	change_volume	meta
+is dan aware of any meetings with me today	meeting_schedule	work
+does march have a holiday	next_holiday	work
+how are the reviews for pasta at assagios	restaurant_reviews	kitchen_and_dining
+how does my credit score look	credit_score	credit_cards
+how long am i supposed to cook pork loin	cook_time	kitchen_and_dining
+i need to know what 25 times 38 is	calculator	utility
+has my electricity bill increased this month how much	bill_balance	banking
+what does my shopping list involve	shopping_list	home
+give me the tire pressure for the car	tire_pressure	auto_and_commute
+will i be able to get to the mall at 5:00, or will there be a lot of traffic	traffic	auto_and_commute
+what's the gas mileage on a juke	mpg	auto_and_commute
+what meetings do i have on my agenda today	meeting_schedule	work
+send $100 from paypal to my bank	transfer	banking
+are the reviews for chevy's any good	restaurant_reviews	kitchen_and_dining
+post my gps coordinates to my facebook friends	share_location	utility
+i would like to be reminded	reminder_update	home
+how long would a bus to the empire state building take	distance	auto_and_commute
+i want an uber	uber	auto_and_commute
+what is your favorite pet, a cat or a dog	do_you_have_pets	small_talk
+can you help me with my pin number	pin_change	banking
+what hotels have decent reviews in bangor	book_hotel	travel
+i need to know the gas type for this vehicle	gas_type	auto_and_commute
+flip me a coin i'm calling tails	flip_coin	utility
+hush	cancel	meta
+what are my recent transaction	transactions	banking
+how many minutes should i set an alarm for this bake	cook_time	kitchen_and_dining
+i need to arrange an appointment to have my car's tires examined	schedule_maintenance	auto_and_commute
+why would a hold have been placed on my checking account	account_blocked	banking
+i hope i have enough money in my chase account to buy new clothes	balance	banking
+please change my name to loverboy	change_user_name	meta
+tell me if my credit limit can be increased to one thousand dollars	credit_limit_change	credit_cards
+thanks for all your help	thank_you	small_talk
+march 20th through the 22nd, please book me a hotel room in manhattan big enough for 10 people	book_hotel	travel
+i don't have checks, so can i get new ones	order_checks	banking
+i need to confirm my reservation for 2/20 at 8 pm	confirm_reservation	kitchen_and_dining
+do you own a cat or do you own a dog	do_you_have_pets	small_talk
+has my online order shipped yet	order_status	home
+is mcdonalds busy around 9	how_busy	kitchen_and_dining
+nope, that's false	no	meta
+are there any steps i need to take to use my credit card points	redeem_rewards	credit_cards
+i'd like to know when you were born	how_old_are_you	small_talk
+please locate me on the map and show me	current_location	auto_and_commute
+who calls the shots for your employment	who_do_you_work_for	small_talk
+would tio's be crowded at 7	how_busy	kitchen_and_dining
+how safe is visiting canada this week	travel_alert	travel
+please confirm my reservation for may 9th at 4pm	confirm_reservation	kitchen_and_dining
+what are the top 10 ways to build my credit score	improve_credit_score	credit_cards
+i must pay my cable bill	pay_bill	banking
+i need to know what it is that i wanted to remember before	reminder	home
+are you a live person or a computer	are_you_a_bot	small_talk
+refresh to factory defaults	reset_settings	meta
+i want to change the oil in my car	oil_change_how	auto_and_commute
+will i require a plug converter when i visit kenya	plug_type	travel
+i need a pancake recipe	recipe	kitchen_and_dining
+when did i get my last oil change	last_maintenance	auto_and_commute
+when must i get my tires changed	tire_change	auto_and_commute
+can you help me book a bmw suv for march 2 to 6th, dallas texas	car_rental	travel
+what can you do for me	what_can_i_ask_you	small_talk
+what's my insurance benefits like	insurance	work
+you can take dishes off my todo list	todo_list_update	home
+how many carry ons can i take on a flight with american airlines to japan	carry_on	travel
+please tell me my current location	current_location	auto_and_commute
+change over to the female voice	change_accent	meta
+is it safe to eat chicken that has been in the fridge since monday	food_last	kitchen_and_dining
+please give me my gps coordinates	current_location	auto_and_commute
+can you tell me the timezone that hartford is in	timezone	travel
+from now on, i want you to answer me using japanese	change_language	meta
+how many miles can i drive before i need to change my oil	oil_change_when	auto_and_commute
+i need to change the credit limit i have	credit_limit_change	credit_cards
+what new credit card should i submit an application for	new_card	credit_cards
+in what timezone is nigeria	timezone	travel
+um, i'm not actually sure	maybe	meta
+could steak be used instead of chicken	ingredient_substitution	kitchen_and_dining
+ai could you say that again	repeat	meta
+i have a fraudulent buy from dave's video on my account	report_fraud	banking
+is my credit score high	credit_score	credit_cards
+where did you come from, originally	where_are_you_from	small_talk
+i gotta know the meaning of life	meaning_of_life	small_talk
+please play music by acdc	play_music	home
+i need my earned income form for paying taxes	w2	work
+put in a pto request for march 4 to march 6	pto_request	work
+how much do you get when you roll an eight sided die	roll_dice	utility
+how much is the current balance in my td bank savings account	balance	banking
+how much pto do i have	pto_balance	work
+can you check to see how busy that restaurant is for dinner	how_busy	kitchen_and_dining
+i'd like to know how old you are	how_old_are_you	small_talk
+can you tell me the weather forecast	weather	utility
+is there a conversion plug if you travel to australia	plug_type	travel
+did i put an item on the calendar to get the dog neutered	calendar	home
+if i replaced my tires on christmas eve, when will i need to replace them again	tire_change	auto_and_commute
+what is delta's carry on policy	carry_on	travel
+please help me in finding my phone	find_phone	utility
+can you change how fast you're talking to speak more slowly	change_speed	meta
+please tell me my pin number for my synovus account	pin_change	banking
+why is my account blocked	account_blocked	banking
+how long until my visa expires	expiration_date	credit_cards
+how much can i expect to receive if i trade in 6 yens	exchange_rate	travel
+i need a list of vaccinations for a trip to paris	vaccines	travel
+please revert all settings to factory default	reset_settings	meta
+can you pull up my most recent transactions	transactions	banking
+thanks	thank_you	small_talk
+this costco charge looks fraudulent	report_fraud	banking
+set a timer for 15 minutes	timer	utility
+i need you to cancel my reservation for smith's at 6:15	cancel_reservation	kitchen_and_dining
+were you made here	where_are_you_from	small_talk
+is milk an ok substitute for cream	ingredient_substitution	kitchen_and_dining
+do not complete the task that i gave you	cancel	meta
+where else do you work	who_do_you_work_for	small_talk
+i need to know all the recent transactions i've made	transactions	banking
+add clean bathroom to my to do list	todo_list_update	home
+it's been 3 years since i changed my oil, how long until i have to deal with it	oil_change_when	auto_and_commute
+will pepper work instead of salt	ingredient_substitution	kitchen_and_dining
+give arianna my current location	share_location	utility
+do you my name	user_name	meta
+i really would like to add hey jude by the beatles to my playlist	update_playlist	home
+if i have four inches, how many centimeters is that	measurement_conversion	utility
+how can i build credit	improve_credit_score	credit_cards
+when does my milk expire	food_last	kitchen_and_dining
+is my tire pressure okay on my car	tire_pressure	auto_and_commute
+what are the nutrition facts for a rodeo cheese burger at burger king	nutrition_info	kitchen_and_dining
+what is my current location that you see right now	current_location	auto_and_commute
+please turn my account to frozen	freeze_account	banking
+can you tell me where flight dl123 is	flight_status	travel
+can you tell me my current bank accounts balance	balance	banking
+give me my income	income	work
+going to work, will there be traffic	traffic	auto_and_commute
+cancel my reservation for me	cancel_reservation	kitchen_and_dining
+what's the funniest thing you've got	tell_joke	small_talk
+what's the mpg of this car	mpg	auto_and_commute
+how much gas do i have here	gas	auto_and_commute
+what name should i use to call for you	what_is_your_name	small_talk
+how much do you think my rent and electric bills are	bill_balance	banking
+bananas expire in how long	food_last	kitchen_and_dining
+your answer was good	thank_you	small_talk
+help me change my insurance	insurance_change	work
+could you book me a hotel in tampa from may 2 to may 4	book_hotel	travel
+what would you like to refer to me as	user_name	meta
+does mcdonald's have good reviews	restaurant_reviews	kitchen_and_dining
+how do you know if your oil needs changed	oil_change_when	auto_and_commute
+i want a good recipe that shows me how to bake chocolate chip cookies from scratch	recipe	kitchen_and_dining
+i'd like to have my paycheck direct deposited to my chase account	direct_deposit	work
+do ai have hobbies and if so what are yours	what_are_your_hobbies	small_talk
+what do you put in avocado dip	ingredients_list	kitchen_and_dining
+i'd like to change the pin on my savings account, please	pin_change	banking
+whats the expiration date on my credit card	expiration_date	credit_cards
+how long will it take the bus to get to stop 23	distance	auto_and_commute
+are there any transaction fee if i use my boston private card in scotland	international_fees	credit_cards
+can you spell the word umbrella for me	spelling	utility
+negate last command	cancel	meta
+my list of reminders contains what	reminder	home
+where do i get the tax form that i have to report to the irs	w2	work
+any travel alerts for south korea	travel_alert	travel
+do you currently have any pets	do_you_have_pets	small_talk
+how can i show noel where i am right now	share_location	utility
+what do i want to remember	reminder	home
+i need to get direct deposit on my bofa account	direct_deposit	work
+how many vacation days are available to me	pto_balance	work
+give me a cool fact about lsd	fun_fact	small_talk
+set a reminder for me to let the plumber in tomorrow	reminder_update	home
+what subjects are you versed in	what_can_i_ask_you	small_talk
+tell me where i am on a map	current_location	auto_and_commute
+help me make changes to my insurance policy	insurance_change	work
+what's the amount of taxes for my income	taxes	work
+how much time before my new card is mailed to me	replacement_card_duration	credit_cards
+can you swap to male voice	change_accent	meta
+should i bring my socket converter to england	plug_type	travel
+when is my flight going to arrive	flight_status	travel
+how do i report a fraudulent charge on my visa	report_fraud	banking
+no, that's not it	no	meta
+do i need any shots if i travel to africa	vaccines	travel
+tell me what i have on my todo list	todo_list	home
+is my 10am village inn reservation valid	confirm_reservation	kitchen_and_dining
+i want to know how many vacation days i have used	pto_used	work
+the reservation i have isn't needed any more	cancel_reservation	kitchen_and_dining
+how much can i spend on my visa card	credit_limit	credit_cards
+tell me the current exchange rate between cad and euros	exchange_rate	travel
+can you show me how to change the oil in my car	oil_change_how	auto_and_commute
+do you know the fuel economy of this car	mpg	auto_and_commute
+does red robin have good reviews	restaurant_reviews	kitchen_and_dining
+what day is my telephone bill due	bill_due	banking
+what percentage full is my gas tank	gas	auto_and_commute
+could you connect with my phone, please	sync_device	meta
+what plug type would i use in japan	plug_type	travel
+go ahead and give me a suggestion for what to make for dinner	meal_suggestion	kitchen_and_dining
+what company designed you	who_made_you	small_talk
+can you tell me the subjects you know best	what_can_i_ask_you	small_talk
+take one hundred and fifty bucks from my wells fargo checking account and put it in my wells fargo savings account	transfer	banking
+find me a rental car for next week , from friday the 5th thru monday the 8th, any kind	car_rental	travel
+you got that wrong	no	meta
+what do i need to do to look up my 1st republic account's interest rate	interest_rate	banking
+how do i relocate my 401k	rollover_401k	work
+tell me a joke about elephants	tell_joke	small_talk
+what are my reminders	reminder	home
+halt	cancel	meta
+the information is wrong	no	meta
+go into whisper mode	whisper_mode	meta
+the sticker on my card is peeling off	damaged_card	credit_cards
+is there another entity you work for	who_do_you_work_for	small_talk
+the status of my day off request, please	pto_request_status	work
+please take shoveling the car off my todo list	todo_list_update	home
+what time do you have on your watch	time	utility
+do you have a cookbook that could teach me to make sushi	recipe	kitchen_and_dining
+i am jason	change_user_name	meta
+do i have cleaning the counters on my to-do list	todo_list	home
+tell me something funny about adulthood	tell_joke	small_talk
+where do i get the tax form that shows my wages	w2	work
+give me expected number of calories in a breakfast burrito	calories	kitchen_and_dining
+give me the specifics on my federal taxes	taxes	work
+would it be accurate to call you a bot	are_you_a_bot	small_talk
+what is the ac temperature	smart_home	home
+how long does it take to boil an egg	cook_time	kitchen_and_dining
+will traffic be light on the way to orlando	traffic	auto_and_commute
+what name should i use for you	what_is_your_name	small_talk
+is it possible to take an uber to burger king	uber	auto_and_commute
+how can i unfreeze my bank account	account_blocked	banking
+please set a timer for 20 minutes	timer	utility
+is there anything you like to do in your free time	what_are_your_hobbies	small_talk
+how about you tell me a joke	tell_joke	small_talk
+what does my checking account at chase earn in interest	interest_rate	banking
+i really need to check my rewards for my credit card	rewards_balance	credit_cards
+how do you prepare taco	recipe	kitchen_and_dining
+make your preferred language english	change_language	meta
+are you feeling okay	greeting	small_talk
+meeting room availability at 8:00 please	schedule_meeting	work
+my luggage was lost so what do i do	lost_luggage	travel
+can you tell me the meaning of fluctuate	definition	utility
+how much gas do i currently have	gas	auto_and_commute
+i want to know if i shouldget a tourist visa for italy	international_visa	travel
+where is the list of my insurance benefits	insurance	work
+what are the best family restaurants in charlottesville	restaurant_suggestion	kitchen_and_dining
+whats my bank accounts look like	balance	banking
+is there a substantial credit limit on my visa	credit_limit	credit_cards
+what's my meaning in life	meaning_of_life	small_talk
+how are my federal taxes looking this year	taxes	work
+are you a pet owner	do_you_have_pets	small_talk
+what's dollars yen in 10	exchange_rate	travel
+when do i take my car in for a tire change	tire_change	auto_and_commute
+when is my meeting with invoicing scheduled	meeting_schedule	work
+do you have a name i can use	what_is_your_name	small_talk
+would you freeze my bank account	freeze_account	banking
+have i earned a lot of points on my capital one card	rewards_balance	credit_cards
+should i be concerned about the air in my tires	tire_pressure	auto_and_commute
+my damage card is not working	damaged_card	credit_cards
+i am flying jetblue and need to know what the most number of bags are that i can carry on	carry_on	travel
+tell your hobbies	what_are_your_hobbies	small_talk
+is vaccination necessary for travel to asia	vaccines	travel
+show me the last five transactions	transactions	banking
+look up my maroon 5 playlists; play it	play_music	home
+would you say that you know who your boss is	who_do_you_work_for	small_talk
+can you find me an uber and have it here at 7pm	uber	auto_and_commute
+can you remind me the things i was trying to remember	reminder	home
+please identify the name of the creator of this ai	who_made_you	small_talk
+i'm out of paper towels so will you order me some more	order	home
+can you repeat that please	repeat	meta
+the timer should have 10 minutes set to it	timer	utility
+what do you have my name saved under	user_name	meta
+name some awesome things about dogs	fun_fact	small_talk
+noodles need to cook for how long	cook_time	kitchen_and_dining
+how long will it takes to get a new credit card	replacement_card_duration	credit_cards
+add song to media playlist	update_playlist	home
+will you please get my furnace turned on	smart_home	home
+when does the current billing cycle end	bill_due	banking
+affirmative, go ahead	yes	meta
+can you tell me my spending history from last week	spending_history	banking
+tell me what tomorrow's date is	date	utility
+is there a meaning to life	meaning_of_life	small_talk
+for city driving, what's the car's mpg	mpg	auto_and_commute
+repeat that	repeat	meta
+i wanna pay my cable bill from my checking account	pay_bill	banking
+i want to make something from ethiopia for dinner	meal_suggestion	kitchen_and_dining
+book a flight from bangor to las vegas on may 1st and returning july 4th	book_flight	travel
+please let me know what is on my shopping list	shopping_list	home
+i would love to know the interest rate on my bank of america cd account	interest_rate	banking
+raise the volume to 4 please	change_volume	meta
+how many e's are in sesame	spelling	utility
+when is payday	payday	work
+how are the tires on air pressure	tire_pressure	auto_and_commute
+do i need an international visa to go to mexico	international_visa	travel
+do you happen to be employed by me	who_do_you_work_for	small_talk
+dim the main lights please	smart_home	home
+have you the time	time	utility
+create a reminder for me to send flowers to my mom for mother's day	reminder_update	home
+i need an uber please	uber	auto_and_commute
+how do you convert ounces to pounds	measurement_conversion	utility
+good seeing you	goodbye	small_talk
+where can i find information on oil changes for my car	oil_change_when	auto_and_commute
+how long is the wait time at olive garden currently	how_busy	kitchen_and_dining
+you must connect to my phone	sync_device	meta
+switch the language setting over to german	change_language	meta
+insurance benefits	insurance	work
+how many mexican pesos can i get for one us dollar	exchange_rate	travel
+tell me how old youare	how_old_are_you	small_talk
+switch the pin on my visa account	pin_change	banking
+what kind of entertainment is available in chicago	travel_suggestion	travel
+i really need to find the interest rate for my checking account	interest_rate	banking
+is a plug converter necessary in mexico	plug_type	travel
+please add 456 and 781 for me	calculator	utility
+lets play some music by korn	play_music	home
+i want to set your name to gaffigan	change_ai_name	meta
+how much money have i dropped recently	spending_history	banking
+how far from our destination are we	distance	auto_and_commute
+can i swap cayenne pepper for black pepper	ingredient_substitution	kitchen_and_dining
+was my order shipped here	order_status	home
+tell me the easiest way to set up direct deposit of my paycheck to my chase account	direct_deposit	work
+please note that i will be travelling internationally soon	travel_notification	travel
+what is the total amount that i have spent on the cash app for this month so far	spending_history	banking
+set reminder pay taxes on monday	reminder_update	home
+can you list my shopping list for me	shopping_list	home
+tell me what day it is	date	utility
+can you tell me my apr on my credit card	apr	credit_cards
+check for why is my bank account frozen	account_blocked	banking
+what do i have to pay on my amex that is the minimum	min_payment	banking
+how much is my xfinity cable bill	bill_balance	banking
+suggestions for thai food	meal_suggestion	kitchen_and_dining
+how do applications for discover cards work	new_card	credit_cards
+what information can i ask you	what_can_i_ask_you	small_talk
+will having my shots updated be a good idea, before i travel to south america	vaccines	travel
+suggest a meal for me that comes from mexico	meal_suggestion	kitchen_and_dining
+can you tell me how to jump start a car	jump_start	auto_and_commute
+what is this song called	what_song	home
+i'd like to rent an automobile in pittsburgh from this tuesday until next thursday can i do that	car_rental	travel
+could you set one alarm for 8am saturday and one for 9am sunday	alarm	utility
+what kind of tax do i pay	taxes	work
+do i have any appoints set for my calendar april 3rd	calendar	home
+repeat that again	repeat	meta
+what are you able to do	what_can_i_ask_you	small_talk
+who created your ai program	who_made_you	small_talk
+i would i say subway if i were english	translate	travel
+do i have any meetings today between 4 and 5	meeting_schedule	work
+how long do the brownies need to be in the oven	cook_time	kitchen_and_dining
+who designed you	who_made_you	small_talk
+does my shopping list include corn	shopping_list	home
+do i have a day off coming up soon	next_holiday	work
+will i be charged if i use the card in australia	international_fees	credit_cards
+please find my balance on my chase mastercard	balance	banking
+will you please slow down your voice	change_speed	meta
+what is the total day off have i taken	pto_used	work
+a w2 form is obtainable where	w2	work
+how much time will riding the bus to downtown take	distance	auto_and_commute
+what is an amazing trivia fact relating to 3d printing	fun_fact	small_talk
+does brooklyn have good italian restaurants	restaurant_suggestion	kitchen_and_dining
+x will be your name	change_ai_name	meta
+put soda on the shopping list and add carrots	shopping_list_update	home
+where could i find forms to get my w2	w2	work
+i've told my financial institution that i'm in africa from august 6 to december 5	travel_notification	travel
+what ingredients are in cake	ingredients_list	kitchen_and_dining
+whats the name of this song	what_song	home
+what are some easy ways to make my credit score better	improve_credit_score	credit_cards
+how much is the total due for my pgw gas bill	bill_balance	banking
+do i need a socket converter if i'm going to be in sweden	plug_type	travel
+what is my car's tire pressure	tire_pressure	auto_and_commute
+how long will it take to be seated at the flying w	how_busy	kitchen_and_dining
+so it turns out my card was declined at applebee's and i wanna know why	card_declined	credit_cards
+what song is this	what_song	home
+can you tell me what to do as i am in the airport and have been for some time and there is still no sign of my suitcase	lost_luggage	travel
+what about the weather in austin	weather	utility
+let me know the status of my american airlines flight	flight_status	travel
+tell me how much gas i have	gas	auto_and_commute
+my card snapped, can you tell my bank to send a replacement	damaged_card	credit_cards
+are you here to serve me	who_do_you_work_for	small_talk
+please turn my settings back to the original settings	reset_settings	meta
+what tune is this	what_song	home
+what number of vacation days do i have available	pto_balance	work
+how do i check when my mortgage is next up for payment	bill_due	banking
+how many days will it take to get a new credit card to replace the one stolen from me	replacement_card_duration	credit_cards
+cant say	maybe	meta
+why was my card declined at safeway	card_declined	credit_cards
+what do i need to get to put into homemade tortillas	ingredients_list	kitchen_and_dining
+when will i get my next paycheck	payday	work
+if i take a flight on pan am to denver, how many carry ons are included	carry_on	travel
+maybe either	maybe	meta
+roll a 6 sided die and tell me the result	roll_dice	utility
+direct deposit instructions	direct_deposit	work
+cancel my reservations for joe's at zepher right now	cancel_reservation	kitchen_and_dining
+is a visa required to visit cancun	international_visa	travel
+i can't decide on dinner, what do you suggest	meal_suggestion	kitchen_and_dining
+i need you to check the air levels in my tires and let me know if i have enough in them	tire_pressure	auto_and_commute
+is there any good place in hawaii kai that serve local food	restaurant_suggestion	kitchen_and_dining
+will you remove the dinner with june on saturday the 4th at 7pm from my calendar	calendar_update	home
+give me a fun fact about otters	fun_fact	small_talk
+can you make an appointment for an oil change	schedule_maintenance	auto_and_commute
+do i need a visa to travel to jamaica	international_visa	travel
+i want to send a text	text	utility
+i say no to that question	no	meta
+is there a way to roll over my 401k	rollover_401k	work
+what is the amount of money that i have to pay in taxes	taxes	work
+target declined my card and i don't know why	card_declined	credit_cards
+when should my car's tires be changed	tire_change	auto_and_commute
+can you explain why there is a hold on my savings account	account_blocked	banking
+delta has too many carry-on restrictions! do you know them	carry_on	travel
+call me an uber please, and make it for four people to go downtown	uber	auto_and_commute
+be more quiet	change_volume	meta
+get me an order of creatine powder	order	home
+can you tell me what kind of life form you are	are_you_a_bot	small_talk
+what do i do to freeze my account	freeze_account	banking
+how do you change car oil	oil_change_how	auto_and_commute
+please flip a coin i select tails	flip_coin	utility
+book me a hotel in seattle near the space needle from march 3rd to 5th	book_hotel	travel
+when was my car in the shop	last_maintenance	auto_and_commute
+am i supposed to attend any meetings today	meeting_schedule	work
+who do i report to if my credit card snaps	damaged_card	credit_cards
+check if bj's takes reservations	accept_reservations	kitchen_and_dining
+please roll a 7 sided die	roll_dice	utility
+send my location to this individual	share_location	utility
+how do you make pot roast	recipe	kitchen_and_dining
+give me a reminder for calling bill	reminder_update	home
+i want to hear everything on my todo list	todo_list	home
+please make it so you say your words more slowly	change_speed	meta
+where should i report a damaged card	damaged_card	credit_cards
+what's the definition of analogy	definition	utility
+new playlist that i will add god's plan to	update_playlist	home
+i apprecaite the help from you	thank_you	small_talk
+remove fries from my shopping list	shopping_list_update	home
+so are you a real person	are_you_a_bot	small_talk
+how would i say i'm not guilty if i were mexican	translate	travel
+do you know the status of the credit card application i filed	application_status	credit_cards
+yeah that's what i want	yes	meta
+what's the sort of thing i should ask	what_can_i_ask_you	small_talk
+i need to find the interest rate for my checking account	interest_rate	banking
+when did i get paid the last time	payday	work
+when can i get oil changed	oil_change_when	auto_and_commute
+what's the name of the song you're playing	what_song	home
+i'd like to hear a joke about donkeys	tell_joke	small_talk
+what subjects do you like	what_can_i_ask_you	small_talk
+change the code of my savings account to be 1234	pin_change	banking
+do i have carrots on my shopping list	shopping_list	home
+i need to report my card as stolen, who do i tell	report_lost_card	credit_cards
+please sync up with my phone	sync_device	meta
+i need for you to tell me what is on my shopping list	shopping_list	home
+you must reserve a table for 4 at red robin under the name kevin at 7	restaurant_reservation	kitchen_and_dining
+how do you jump a car	jump_start	auto_and_commute
+could a hotel be booked for me in afghanistan at the zoo for the 10th to the 15th	book_hotel	travel
+flip a coin, heads	flip_coin	utility
+i want to hear my slow playlist	play_music	home
+how have you been doing	greeting	small_talk
+don't call me anything besides bailey	change_user_name	meta
+when is your birthday	how_old_are_you	small_talk
+thanks for the help	thank_you	small_talk
+how many gallons do i have left in my gas tank	gas	auto_and_commute
+restate the last thing you told me	repeat	meta
+i wanna know my current location	current_location	auto_and_commute
+when was my car in the shop last	last_maintenance	auto_and_commute
+read my bill balances	bill_balance	banking
+how can i request my credit score	credit_score	credit_cards
+how can i know my current location	current_location	auto_and_commute
+do i control you	who_do_you_work_for	small_talk
+connect me with an uber	uber	auto_and_commute
+what type of nutrition does spaghetti have	nutrition_info	kitchen_and_dining
+how do i jump start a bad battery	jump_start	auto_and_commute
+how do i find my present location right now, please	current_location	auto_and_commute
+will you make sure that mopping is on my to do list	todo_list_update	home
+do i need a socket converter if i'm going to be in france	plug_type	travel
+define zesty	definition	utility
+make the settings go back to the original	reset_settings	meta
+clue me in on my credit score	credit_score	credit_cards
+can you suggest to me any meals from nigeria	meal_suggestion	kitchen_and_dining
+i want to know if my vacation request has been approved	pto_request_status	work
+what's the word for trees in norway	translate	travel
+set one alarm for 215pm and another for 7pm	alarm	utility
+let me know if you are a cat or dog person	do_you_have_pets	small_talk
+what is my pay	payday	work
+when will the replaecment card arrive	replacement_card_duration	credit_cards
+how can i make a change to my credit limit	credit_limit_change	credit_cards
+do you know if ruth chris does reservations	accept_reservations	kitchen_and_dining
+please add watering the plants to my current to do list	todo_list_update	home
+i would like to cancel my reservations	cancel_reservation	kitchen_and_dining
+search for chili recipes	recipe	kitchen_and_dining
+i would like to know how much fat is in tbsp of olive oil	nutrition_info	kitchen_and_dining
+how busy is red robin around 5 pm	how_busy	kitchen_and_dining
+the word is happiness; how many a's can you find in that word	spelling	utility
+please use whisper mode	whisper_mode	meta
+if i take this bus, how long until i get to brooklyn	distance	auto_and_commute
+put a reminder on the calendar to buy a gun on march 1st	calendar_update	home
+what's the transaction fee for my boa card in orlando, fl	international_fees	credit_cards
+do i have enough gas to get home	gas	auto_and_commute
+what time is it in the pacific standard time	time	utility
+can you schedule a meeting with james at the office	schedule_meeting	work
+on what day is our next day off	next_holiday	work
+where do you trace your roots	where_are_you_from	small_talk
+can you give me an appraisal of my card's apr	apr	credit_cards
+roll a dice and give me a number from 1 to 6	roll_dice	utility
+was a hold placed on my wells fargo account, and if so why	account_blocked	banking
+i would like to hear you read my reminder list to me	reminder	home
+how much is my telephone bill this month	bill_balance	banking
+when is my next car payment	bill_due	banking
+can you add an event to my calendar	calendar_update	home
+doy ou know what timezone chicago is in	timezone	travel
+book 3 under the name zebee at xenophobe	restaurant_reservation	kitchen_and_dining
+what's an interesting tidbit about rivers	fun_fact	small_talk
+can you find me some good places in kentucky that serve sushi	restaurant_suggestion	kitchen_and_dining
+could you please track my package	order_status	home
+set up direct deposit	direct_deposit	work
+what do i have to do to see my rewards for my chase card	rewards_balance	credit_cards
+i want to convert kilos to pounds	measurement_conversion	utility
+how do you convert feet to inches	measurement_conversion	utility
+do i need some vaccinations or anything if i'm going to eastern europe	vaccines	travel
+what does indignation mean	definition	utility
+what is up with my account, why is it blocked	account_blocked	banking
+please play the song that goes like america the beautiful	play_music	home
+let the wife see where i'm at	share_location	utility
+what age is the ai	how_old_are_you	small_talk
+list of countries with travel alerts	travel_alert	travel
+what is 38% of 389209	calculator	utility
+can you cancel my reservation tonight for chris at smith and wollensky	cancel_reservation	kitchen_and_dining
+what's the name you like to be called	what_is_your_name	small_talk
+when will my car need new oil	oil_change_when	auto_and_commute
+has my day off request been approved or denied yet	pto_request_status	work
+do i need a us visa for cuba	international_visa	travel
+i have to have a text sent	text	utility
+create an alarm	alarm	utility
+tell me whether i need an international visa to go to mexico	international_visa	travel
+how much money did i spend this weekend	spending_history	banking
+define sonogram	definition	utility
+do people say per se is any good or not	restaurant_reviews	kitchen_and_dining
+please try to confirm my reservation for jim at barney's	confirm_reservation	kitchen_and_dining
+check how much pto i have left	pto_balance	work
+am i your boss	who_do_you_work_for	small_talk
+i would like to know flight dl123's status	flight_status	travel
+money transfer request	transfer	banking
+tell me what's on my todo list	todo_list	home
+how do i adjust my credit limit	credit_limit_change	credit_cards
+i'm out of paper towels so will you put that on my shopping list	shopping_list_update	home
+what are the weather conditions like in seattle	weather	utility
+i'd love to set an alarm	alarm	utility
+turn to whisper mode	whisper_mode	meta
+how bad is my current credit score	credit_score	credit_cards
+what do i need to make spaghetti	ingredients_list	kitchen_and_dining
+i am wanting to know what song this is	what_song	home
+tell me now if you are a bot	are_you_a_bot	small_talk
+what are some good places to eat at	restaurant_suggestion	kitchen_and_dining
+how healthy is pizza	nutrition_info	kitchen_and_dining
+have i gone over my chocolate budget lately	spending_history	banking
+tell me how are you	greeting	small_talk
+what is the least i can pay on my mortgage bill	min_payment	banking
+quieter please	change_volume	meta
+what do people think of the new burger at mcdonalds	restaurant_reviews	kitchen_and_dining
+please look up the next holiday for me	next_holiday	work
+i want to call you maggie	change_ai_name	meta
+send me an uber now for four people and we are going to appleby's downtown	uber	auto_and_commute
+when do you think i ought to change the oil in my car next	oil_change_when	auto_and_commute
+remind me to clean room	reminder_update	home
+the song on speaker is what like	what_song	home
+help me, i forgot my pin number	pin_change	banking
+what is the total number of pints in two quarts	measurement_conversion	utility
+any clue as to if taco bell takes reservations	accept_reservations	kitchen_and_dining
+i want to request pto from november 7 to 11	pto_request	work
+how do you say thank you in german	translate	travel
+do you have a nickname	what_is_your_name	small_talk
+when is my next paycheck	payday	work
+when did i last have a mechanic check out my car	last_maintenance	auto_and_commute
+i like this song who is it by	what_song	home
+i don't know how to spell apoplectic, can you tell me	spelling	utility
+it is good to see you	greeting	small_talk
+i need you to repeat that	repeat	meta
+go back to your manufacturers' settings	reset_settings	meta
+at the moment what song is playing on the speaker	what_song	home
+clear my calendar for april 20th	calendar_update	home
+i need to roll a 10 sided die	roll_dice	utility
+has the leftover hamburger from last saturday gone bad	food_last	kitchen_and_dining
+i recently ran out of checks, so i wanna get some new ones	order_checks	banking
+let ben and jerry know where i am	share_location	utility
+if i go to tgifridays at eight, will they be crowded	how_busy	kitchen_and_dining
+reserve a table for four for tonight at 7 at the fatted calf	restaurant_reservation	kitchen_and_dining
+what is the total amount due on my electricity bill	bill_balance	banking
+what sites are there to see when in evans	travel_suggestion	travel
+where did your mom have you	where_are_you_from	small_talk
+can you help me unlock my bank account	account_blocked	banking
+what is break a leg mean	definition	utility
+let dan know where i am	share_location	utility
+i want a rental car that is available tomorrow and that i can keep for four days please find me one	car_rental	travel
+command cancel	cancel	meta
+report my lost visa card	report_lost_card	credit_cards
+call sandra right now	make_call	utility
+what is your name for me	user_name	meta
+is my order at the delivery address	order_status	home
+pause my account	freeze_account	banking
+would you mind repeating that	repeat	meta
+what are all your pets	do_you_have_pets	small_talk
+what is that tax form that shows my wages and where do i get it	w2	work
+tell me today's date	date	utility
+when is the expiration date for me discover	expiration_date	credit_cards
+will we have to make reservations for roca	accept_reservations	kitchen_and_dining
+what timezone is viet nam in	timezone	travel
+please set up a reminder for me	reminder_update	home
+what are the shots i need in order to travel to mexico	vaccines	travel
+can you help me pay this bill	pay_bill	banking
+find square root of 453	calculator	utility
+would you track my package	order_status	home
+go ahead and roll that 9 sided dice	roll_dice	utility
+what gas does that car currently use	gas_type	auto_and_commute
+i would like to increase my bank of america credit limit, can you help me	credit_limit_change	credit_cards
+why are you talking so slowly	change_speed	meta
+how are my state taxes looking	taxes	work
+subtract 85 from 997	calculator	utility
+how much longer until my next day off	next_holiday	work
+where's my package right now	order_status	home
+do i have the gas to get to orlando	gas	auto_and_commute
+i would like to apply for a new credit card	new_card	credit_cards
+can you check on a transaction for me	transactions	banking
+what sorts of activities should i get up to while i am in dublin	travel_suggestion	travel
+i would like to know my electric bills date it needs to be payed	bill_due	banking
+good talk, see you later	goodbye	small_talk
+i need my luggage found, i was on delta flight ab123 out of san francisco	lost_luggage	travel
+at the moment what is the time	time	utility
+the meaning of life	meaning_of_life	small_talk
+tell me what you are capable of answering	what_can_i_ask_you	small_talk
+do i have many meetings today between 2 and 4	meeting_schedule	work
+i need help cause my check engine light came on	schedule_maintenance	auto_and_commute
+share my gps coordinates with my dad	share_location	utility
+are the reviews ned get's good	restaurant_reviews	kitchen_and_dining
+how many points did i get on my discover card	rewards_balance	credit_cards
+would you let me know what is on my shopping list	shopping_list	home
+can you tell me when my credit card application will be processed	application_status	credit_cards
+what area did you come from	where_are_you_from	small_talk
+from a flight from muscat to qatar, how many carry ons can i take	carry_on	travel
+please help me with instructions on making chicken curry	recipe	kitchen_and_dining
+you were so kind to do that	thank_you	small_talk
+how to keep my credit up	improve_credit_score	credit_cards
+when is my electric bill due	bill_due	banking
+what is my exact credit score	credit_score	credit_cards
+please tell me what amount i'm earning	income	work
+i'd like to increase my credit limit up to four thousand	credit_limit_change	credit_cards
+you should talk faster	change_speed	meta
+how long can i expect to keep steak in the freezer	food_last	kitchen_and_dining
+pay my electric bill for me	pay_bill	banking
+tell me if i am able to rollover my 401k	rollover_401k	work
+how much did i spend this week	spending_history	banking
+please read my shopping list	shopping_list	home
+you were born where	where_are_you_from	small_talk
+how long is an oil change good for	oil_change_when	auto_and_commute
+do you have my name programmed	user_name	meta
+what do i have scheduled on march 2nd on my calendar	calendar	home
+i can't change my oil and don't know what kind i need	oil_change_how	auto_and_commute
+please change your language setting to russian	change_language	meta
+help me get my pay check deposited directly to my home checking account	direct_deposit	work
+please tell me how to get a new credit card	new_card	credit_cards
+do you know where my luggage is	lost_luggage	travel
+what is the status of my order	order_status	home
+close out my account	freeze_account	banking
+can you get me a car rental for march 13th to 15th in nyc, and i'd like a convertible if possible	car_rental	travel
+please put taco night on the house calendar date of january 6	calendar_update	home
+what kind of gas mileage do i get	mpg	auto_and_commute
+you need to tell me my credit card's apr	apr	credit_cards
+how old are you, again	how_old_are_you	small_talk
+i want you to call me bailey	change_user_name	meta
+will my debit card go bad any time soon	expiration_date	credit_cards
+what's the time it takes to make a decent omelette	cook_time	kitchen_and_dining
+tell me how long milk stays good in the fridge	food_last	kitchen_and_dining
+have i added anything to my todo list	todo_list	home
+change your name to ginger	change_ai_name	meta
+are there any travel alerts for brazil	travel_alert	travel
+let me know the amounts i owe for my utilities and tuition bills	bill_balance	banking
+what do tourists do for fun in seattle	travel_suggestion	travel
+i must know my water bill minimum payment	min_payment	banking
+disconnect from my device please	sync_device	meta
+please tell me the total calories a single serving of chocolate ice cream is expected to contain	calories	kitchen_and_dining
+how do i change my current insurance to a new plan with lower co-pay	insurance_change	work
+tell fred that i don't have his guitar	text	utility
+do you know where my phone is located now	find_phone	utility
+what is my ac set to right now	smart_home	home
+where is your home located	where_are_you_from	small_talk
+who else do you work for	who_do_you_work_for	small_talk
+how much total cash do i have in the bank	balance	banking
+is pepper a replacement for salt	ingredient_substitution	kitchen_and_dining
+do i have bananas on my shopping list, if not please add it	shopping_list_update	home
+what type of gas do i use in this car	gas_type	auto_and_commute
+can you please put toilet paper on the shopping list i'm out of it	shopping_list_update	home
+can you talk to me in chinese	change_language	meta
+order a disney gift card in the amount of five hundred dollars from costco	order	home
+do you know if my vacation request went through	pto_request_status	work
+read my reminders please	reminder	home
+i want to hear jokes about toddlers	tell_joke	small_talk
+open bank app and show my most recent transactions	transactions	banking
+can you get a coin and flip it	flip_coin	utility
+what is the quickest way to get a new card	replacement_card_duration	credit_cards
+what is the amount of dollars i get if i trade in 6 yens	exchange_rate	travel
+where do i find the routing number for nfcu	routing	banking
+good evening	greeting	small_talk
+take $20000 from savings and put it in checking	transfer	banking
+so what is my current name saved as	user_name	meta
+what was that last thing you said	repeat	meta
+i lost a card and i need to report it	report_lost_card	credit_cards
+go ahead and confirm my reservation for kevin at red robin	confirm_reservation	kitchen_and_dining
+when does milk will go bad	food_last	kitchen_and_dining
+i'm thankful for your help	thank_you	small_talk
+what's the amount of points i have earned with my discover card	rewards_balance	credit_cards
+does this car get good mpg on the highway	mpg	auto_and_commute
+would you let me know the status of my american airlines flight	flight_status	travel
+i think it could be both	maybe	meta
+take tennis practice off my to do list	todo_list_update	home
+how many calories are in vanilla ice cream	calories	kitchen_and_dining
+i want to know a fun fact about pluto	fun_fact	small_talk
+text mary and tell them i'm on my way	text	utility
+how long does it take to get a replacement credit card when your last one was stolen	replacement_card_duration	credit_cards
+how much did my last purchase cost	transactions	banking
+i want to be called timothy	change_user_name	meta
+thank you for answering that	thank_you	small_talk
+what tasks have i yet to complete off my list	todo_list	home
+what items are on my shopping list	shopping_list	home
+please let me know what the status of my day off request is	pto_request_status	work
+when does milk expire	food_last	kitchen_and_dining
+can you tell me if my last amazon order is coming today	order_status	home
+tell me when my next paycheck will be here	payday	work
+how many calories are in hamburgers	calories	kitchen_and_dining
+where can i get my w2 forms from	w2	work
+what oil should i use and how do i change it	oil_change_how	auto_and_commute
+what are the steps to jump start my car	jump_start	auto_and_commute
+what's the weekend forecast	weather	utility
+my water bill is due, pay it immediately	pay_bill	banking
+do you know what my health benefits are	insurance	work
+what's a neat fact about twinkies	fun_fact	small_talk
+i want a block placed on my college fund account immediately	freeze_account	banking
+who is knocking	smart_home	home
+what do you do for fun	what_are_your_hobbies	small_talk
+how much do i pay in income tax	taxes	work
+what's the facts about nutrients in rice milk	nutrition_info	kitchen_and_dining
+what is the last date of service on my car	last_maintenance	auto_and_commute
+what's the nutritional info for pizza	nutrition_info	kitchen_and_dining
+i gotta know my car;s tire pressure	tire_pressure	auto_and_commute
+that’s actually wrong	no	meta
+call steven	make_call	utility
+i need to know what kind of gas to put in this car	gas_type	auto_and_commute
+speed up your talking	change_speed	meta
+how do i use the reward for my bank of hawaii	redeem_rewards	credit_cards
+do you have any past-times	what_are_your_hobbies	small_talk
+what is the traffic situation at the olive garden restaurant	traffic	auto_and_commute
+how many people go to chili's around 9pm	how_busy	kitchen_and_dining
+have you heard any great jokes lately	tell_joke	small_talk
+i'd like help finding my fon	find_phone	utility
+how long should i cook a glazed ham	cook_time	kitchen_and_dining
+where is the closest target	directions	auto_and_commute
+i don't know how to answer to that	maybe	meta
+transfer 100 dollars checking to savings	transfer	banking
+can you help me switch insurance plans	insurance_change	work
+i need to know when my electricity bill is due	bill_due	banking
+robbie needs to know aboutthis so would you text robbie to let them know	text	utility
+set alarm for 6am	alarm	utility
+i need to find out do you know if zeus does reservations	accept_reservations	kitchen_and_dining
+how do you use jumper cables	jump_start	auto_and_commute
+who is the person that brought you to life	who_made_you	small_talk
+so i have any vacation days left	pto_balance	work
+i'd like to report my card as damaged, it's bent	damaged_card	credit_cards
+can you check the expiration date for my amex card	expiration_date	credit_cards
+which type of pet would you rather possess, a cat or a dog	do_you_have_pets	small_talk
+i know that the statement is true	yes	meta
+thats right	yes	meta
+could you insert broken by evanescence to my music	update_playlist	home
+is my card working properly	card_declined	credit_cards
+spell water	spelling	utility
+how much money did i make	income	work
+can you set a timer for me for fifteen minutes starting now	timer	utility
+can i rent a car in belgium from march 01 to march 02 and have it be a porsche	car_rental	travel
+can you suggest any good meals from chicago	meal_suggestion	kitchen_and_dining
+how long until my paycheck shows up	payday	work
+where can i see the routing number for bmo	routing	banking
+should i have my shots up to date before i travel to the virgin islands	vaccines	travel
+who is the one that made you	who_made_you	small_talk
+please block my chase account right away	freeze_account	banking
+how long since i swapped oil	last_maintenance	auto_and_commute
+when's the ac bill due	bill_due	banking
+the current time	time	utility
+transfer $500 from my money market savings account to my checking account	transfer	banking
+start the timer now	timer	utility
+it seems i can't use my card since it has been damaged	damaged_card	credit_cards
+cancel the dinner reservation i made, okay	cancel_reservation	kitchen_and_dining
+who can i rent a car from next month in orlando	car_rental	travel
+let my bank know i'll be in ireland from may 01, 2019 to august 02, 2019	travel_notification	travel
+what year is it	date	utility
+i want to report fraudulent activity on my discover card	report_fraud	banking
+do i need to read any travel alerts for kenya	travel_alert	travel
+i want to pay that bill now	pay_bill	banking
+tell me my visa's credit limit	credit_limit	credit_cards
+why did my card get declined at public when i was trying to buy food	card_declined	credit_cards
+can i take pto from the end of the month to the 5th of the next month	pto_request	work
+who were you invented by	who_made_you	small_talk
+what would the interest rate at wells fargo be	interest_rate	banking
+make a timer for 5 minutes	timer	utility
+could i perhaps increase by credit limit by 500 dollars	credit_limit_change	credit_cards
+how many teaspoons will make one tablespoon	measurement_conversion	utility
+what is the arrival time for my flight	flight_status	travel
+which organization you work for	who_do_you_work_for	small_talk
+i need a new credit card, show me suggestions	new_card	credit_cards
+can i refer to you as mike from here on out	change_ai_name	meta
+make saound function operate in whisper mode	whisper_mode	meta
+does my car have enough gas to get to atlantic city	gas	auto_and_commute
+my utility bill is coming due and i need a loan	pay_bill	banking
+how often should i replace my tires sense i replaced them on 2/21/17	tire_change	auto_and_commute
+what percentage do i pay in taxes	taxes	work
+how much time is left until we get there	distance	auto_and_commute
+stop calling me charlie and from now on always call me chip	change_user_name	meta
+is it necessary to get a shot for travel to india	vaccines	travel
+how many weeks of vacation do i have	pto_balance	work
+play hey jude	play_music	home
+retrieve my current mpg on my car	mpg	auto_and_commute
+whats the total of my taxes	taxes	work
+what's it been costing me to buy three packs a day	spending_history	banking
+what type of plug do i need to bring if i visit japan	plug_type	travel
+scan you find me a chicken recipe	recipe	kitchen_and_dining
+what are some good places to go out for dinner in my area tonight	restaurant_suggestion	kitchen_and_dining
+can my 401k rollover or not	rollover_401k	work
+ai, how old are you	how_old_are_you	small_talk
+which rules does delta have for carry on	carry_on	travel
+go to the next song on the playlist	next_song	home
+how's my credit score	credit_score	credit_cards
+show me recent transactions	transactions	banking
+how many carry ons can i take on a flight with american airlines to seattle	carry_on	travel
+where's your place of birth	how_old_are_you	small_talk
+can you remind me how to spell because	spelling	utility
+i'm trying to raise my credit score can you tell me what it is now	credit_score	credit_cards
+at what point will this flight start letting people board	flight_status	travel
+how long will my eggs be good for	food_last	kitchen_and_dining
+how full or empty is my tank of gas	gas	auto_and_commute
+grapes have what kind of nutritional facts	nutrition_info	kitchen_and_dining
+what kind of hobbies are you interested in	what_are_your_hobbies	small_talk
+i think i need to make a reservation for 8 pm at red robin for 3	restaurant_reservation	kitchen_and_dining
+how much is the minimum payment for power bill	min_payment	banking
+please delete the reservation for 3 people at outback	cancel_reservation	kitchen_and_dining
+tell me all about the creatures you own	do_you_have_pets	small_talk
+could you be human	are_you_a_bot	small_talk
+will you play the next song on this playlist	next_song	home
+where can i find a page showing my how to change my oil	oil_change_how	auto_and_commute
+what's the current time in greenwhich	time	utility
+i have used how much pto so far	pto_used	work
+what food items do you put in english breakfast	ingredients_list	kitchen_and_dining
+skip to next song	next_song	home
+i've saved what number of days of vacation	pto_balance	work
+is it ok if i use some of my pto on may 24th to may 29th	pto_request	work
+put this song in vibes playlist	update_playlist	home
+give me a joke about the topic of television	tell_joke	small_talk
+which domestic animal do you prefer, dog or cat	do_you_have_pets	small_talk
+what are some ways to raise my credit score	improve_credit_score	credit_cards
+"i need to know how to spell ""miranda"	spelling	utility
+limit your volume	change_volume	meta
+is it possible to rent a car from laguardia from tuesday to friday	car_rental	travel
+would you tell me your age	how_old_are_you	small_talk
+what is the antilog of 365	calculator	utility
+can you help me with some fraudulent charges on my card	report_fraud	banking
+tell me what is on my todo list	todo_list	home
+tell me the meeting schedule for the day	meeting_schedule	work
+i'm so glad you helped me!	thank_you	small_talk
+have there been any travel alerts for the us	travel_alert	travel
+can i know what type of things you can help me with	what_can_i_ask_you	small_talk
+what sort of things do you enjoy	what_are_your_hobbies	small_talk
+you take sweeping of my todo list	todo_list_update	home
+check my to do list to see if feeding the fish is on it	todo_list	home
+please find out the current status of my credit card application	application_status	credit_cards
+what is the expiration month of my card	expiration_date	credit_cards
+whats the latest on flight dl123	flight_status	travel
+tell me how to redeem my credit card points	redeem_rewards	credit_cards
+us and mexico exchange rate	exchange_rate	travel
+unsync yourself from my phone please	sync_device	meta
+i would like information on the meaning of life	meaning_of_life	small_talk
+thank you	thank_you	small_talk
+what have car repairs ran me this month	spending_history	banking
+how do i let my bank know i'm going to vietnam	travel_notification	travel
+what hour and minute is it	time	utility
+what fuel do i need for my car	gas_type	auto_and_commute
+how do i set up direct deposit to my bank of hawaii account	direct_deposit	work
+is it possible to use baking soda instead of flour	ingredient_substitution	kitchen_and_dining
+does bar tartine in san francisco take reservations	accept_reservations	kitchen_and_dining
+how can i tell my bank i'm going to vietnam	travel_notification	travel
+are there any meetings room available between 8:00 and 9:00 am	schedule_meeting	work
+what are the total calories for two servings of pasta	calories	kitchen_and_dining
+i'd like to add this song to my relaxation playlist	update_playlist	home
+i'm not sure if this will hurt my credit score	improve_credit_score	credit_cards
+can you tell me my cards minimum payment	min_payment	banking
+how many days of vacation do i have left	pto_balance	work
+what is your availability for conference rooms between one and two today	schedule_meeting	work
+can you confirm that i have a reservation for 2/20 at 6:00 pm	confirm_reservation	kitchen_and_dining
+what can i do in nashville	travel_suggestion	travel
+what kind of meetings do i have today	meeting_schedule	work
+i'm intereted in requesting pto from april 1-5	pto_request	work
+tell me when my last oil change was	last_maintenance	auto_and_commute
+is traffic good or bad at 9:00 on the way to detroit	traffic	auto_and_commute
+can you tell me what i owe for this month's phone bill	bill_balance	banking
+what are the pets that you have in your possession	do_you_have_pets	small_talk
+has anyone locked the door	smart_home	home
+set a timer for two minutes	timer	utility
+what types of things can i ask the ai	what_can_i_ask_you	small_talk
+my luggage is lost and i would like help trying to locate it	lost_luggage	travel
+how cold is it in wisconsin today	weather	utility
+stop speaking	cancel	meta
+what if you want a new credit card	new_card	credit_cards
+my card was declined at the store yesterday, what happened	card_declined	credit_cards
+what is the timezone for paris	timezone	travel
+what's the mpg for the car when it's on the highway	mpg	auto_and_commute
+how do i change the oil in my car	oil_change_how	auto_and_commute
+what do you put in chili	ingredients_list	kitchen_and_dining
+tell me a non-offensive joke	tell_joke	small_talk
+what name do you prefer	what_is_your_name	small_talk
+please tell me my meeting schedule	meeting_schedule	work
+i want to know the ingredients for making pizza	ingredients_list	kitchen_and_dining
+can you tell me the status of my credit card application	application_status	credit_cards
+i need more information about my income	income	work
+by what name people call me	user_name	meta
+let me know if my application for american saving bank	application_status	credit_cards
+find the nutrition info for cheese fries for me	nutrition_info	kitchen_and_dining
+what is it i wanted to bear in mind	reminder	home
+are my tires properly inflated with air	tire_pressure	auto_and_commute
+wake me up at 6 am	alarm	utility
+how much interest am i getting in my citibank savings	interest_rate	banking
+how long does it take to get to the park in detroit	distance	auto_and_commute
+what amount of time do i need to cook lobster for	cook_time	kitchen_and_dining
+so are you human	are_you_a_bot	small_talk
+let my bank know i actually am visiting brazil	travel_notification	travel
+are you sure i don’t think that’s correct	no	meta
+what vaccines do i need before i travel there	vaccines	travel
+i demagnetized my card and want to report it	damaged_card	credit_cards
+your answer was enjoyable	thank_you	small_talk
+what are my gps coordinates right now	current_location	auto_and_commute
+tell me how to apply for a credit card	new_card	credit_cards
+call sal	make_call	utility
+i was at costco trying to buy sheets and my card got declined	card_declined	credit_cards
+do my tires need to be changed	tire_change	auto_and_commute
+can i safely eat chicken that i've had in my fridge since monday	food_last	kitchen_and_dining
+i want to know the bofa routing number	routing	banking
+does the restaurant michael's take reservations	accept_reservations	kitchen_and_dining
+is the traffic bad at 5:00 if i'm going to the mall	traffic	auto_and_commute
+how long has it been since my oil was changed	last_maintenance	auto_and_commute
+can i swap sugar for salt	ingredient_substitution	kitchen_and_dining
+please tell me when is the next holiday here	next_holiday	work
+my disney visa card is stolen	report_lost_card	credit_cards
+how do i get my paycheck direct deposited to my chase account	direct_deposit	work
+i would like brenda to have my location	share_location	utility
+what events do i have going on on march 11th	calendar	home
+please read my reminder list	reminder	home
+the reservation i made is not required anymore	cancel_reservation	kitchen_and_dining
+can you cancel that, please	cancel	meta
+i have to roll over my 401k to a new account and i don't know how	rollover_401k	work
+are bananas on my shopping list can you add them if they aren't	shopping_list_update	home
+what step do i take if my bag got lost on the flight	lost_luggage	travel
+take toilet paper off my shopping list and add paper towels	shopping_list_update	home
+show me the transaction on my car	transactions	banking
+tell me some amazing trivia about radios	fun_fact	small_talk
+i decide to switch out of whisper mode	whisper_mode	meta
+add to my list of things to do: wash the dog	todo_list_update	home
+how can i raise my credit score	improve_credit_score	credit_cards
+"""please set 5 minute timer"	timer	utility
+please can we go to the next song	next_song	home
+please add this song to my study playlist	update_playlist	home
+how long will it take to fix shepherd's pie	cook_time	kitchen_and_dining
+i wonder how many points i have earned with my bank of america card	rewards_balance	credit_cards
+what have i spent on food this month	spending_history	banking
+is the marathon on friday added to my calendar	calendar	home
+i'd like to reset to factory settings	reset_settings	meta
+for march 1 to 2 make a pto request for me	pto_request	work
+put clean stovetop on my list of reminders	todo_list_update	home
+where can i check my credit rating	credit_score	credit_cards
+please change to the female voice	change_accent	meta
+what do i need for a plug in wales	plug_type	travel
+i need to schedule a meeting	schedule_meeting	work
+check my calendar for saturday	calendar	home
+who invented you	who_made_you	small_talk
+how many days until the next holiday arrives	next_holiday	work
+is cooked chicken still good after being refrigerated for two weeks	food_last	kitchen_and_dining
+i want you to connect to my handset	sync_device	meta
+how many vacation days have i saved up	pto_balance	work
+what is my credit card's apr	apr	credit_cards
+what's the total vacation days i've gone through	pto_used	work
+play the next song instead	next_song	home
+please put the meeting with carla on my to do list	todo_list_update	home
+hey, how's it going	greeting	small_talk
+do i get a replacement card mailed, and when	replacement_card_duration	credit_cards
+if you don't mind, please switch to whisper mode	whisper_mode	meta
+can you call russell	make_call	utility
+display the routing number for account huntington	routing	banking
+turn to the voice of the woman	change_accent	meta
+how long do tires last for	tire_change	auto_and_commute
+please add this song to my jazz playlist	update_playlist	home
+can you help me hunt for my missing cellphone	find_phone	utility
+what is the number of pto days i have left	pto_balance	work
+what is the reward balance on my discover card	rewards_balance	credit_cards
+call robby for me	make_call	utility
+can you reset to factor settings	reset_settings	meta
+what kind of weather is there	weather	utility
+pay a bribe using my money market account	pay_bill	banking
+do you like cats or dogs	do_you_have_pets	small_talk
+i would prefer your voice to be male	change_accent	meta
+how's my amazon order doing	order_status	home
+anything on the schedule for october 14th	calendar	home
+how much time do i need to make the chicken	cook_time	kitchen_and_dining
+let me know how to rollover my 401k	rollover_401k	work
+can i transfer my 401k somewhere	rollover_401k	work
+do i have any meetings today between 2 and 3	meeting_schedule	work
+i am unable to remember what my pin is for my bank of america checking account	pin_change	banking
+please tell me how curiosity is spelled	spelling	utility
+what is the weather in tokyo	weather	utility
+i need to get to a church immediately, please take me to one!	directions	auto_and_commute
+i wanna hear something funny	tell_joke	small_talk
+can you tell me the items on my to do list	todo_list	home
+where did you come from	where_are_you_from	small_talk
+how would i say goodbye if i were norwegian	translate	travel
+where is the nearest papa john's	directions	auto_and_commute
+what do you do for hobbies	what_are_your_hobbies	small_talk
+what is the smallest payment i can make toward my xfinity bill	min_payment	banking
+where is my delta flight	flight_status	travel
+hi how is everything	greeting	small_talk
+who has the tax form that has my wage informaton	w2	work
+can you start talking to me in spanish from here on out	change_language	meta
+text my coworker for me and tell them the due date	text	utility
+please make a report that my card is split	damaged_card	credit_cards
+i repeat cancel	cancel	meta
+what's your place of manufacture	where_are_you_from	small_talk
+ai, stop!	cancel	meta
+i spent 34 dollars for 12 gallons of paint what is the average price for each gallon	calculator	utility
+adjust the volume to level 4	change_volume	meta
+what's the meaning of naff	definition	utility
+how long is the wait at macaroni grill	how_busy	kitchen_and_dining
+what are you interested in	what_are_your_hobbies	small_talk
+just call me al	change_user_name	meta
+let me know if i need an international visa to go to sudan	international_visa	travel
+i need you to skip this song and play the next one	next_song	home
+are there any mandatory shots that i must get before my trip to jamaica	vaccines	travel
+timezone in salt lake city	timezone	travel
+ai, what can i call you	what_is_your_name	small_talk
+i applied for the credit card, have you processed my application	application_status	credit_cards
+reservations for two need to be made using michael's name for 7:00pm at olive garden	restaurant_reservation	kitchen_and_dining
+how many days do i have left of pto	pto_balance	work
+what are the ratings about at pho king	restaurant_reviews	kitchen_and_dining
+my insurance policy needs to be adjusted	insurance_change	work
+how busy is jiro at 12 lunch time	how_busy	kitchen_and_dining
+i need to make changes to my insurance policy	insurance_change	work
+how long is a bus ride to staples	distance	auto_and_commute
+i'm lost, can you tell me where i am	current_location	auto_and_commute
+i'd like to reserve a high-end car that seats 5 comfortably for april 12th through 18th for st louis missouri	car_rental	travel
+can you get me a table for 8 at mastro's at 8:30pm	restaurant_reservation	kitchen_and_dining
+please make a reminder	reminder_update	home
+i would like to know who your boss is	who_do_you_work_for	small_talk
+am i in need of an international visa to go to france	international_visa	travel
+what's the time right now	time	utility
+please use a quicker rate of speech	change_speed	meta
+can you check what the problem with my account is, it seems to b e blocked	account_blocked	banking
+tell me the right kind of gas for this car	gas_type	auto_and_commute
+where should i eat tonight	restaurant_suggestion	kitchen_and_dining
+i need anyone who can help me pay my electric bill	pay_bill	banking
+change to factory settings now	reset_settings	meta
+what things do you know about	what_can_i_ask_you	small_talk
+my card is unusable because it's damaged	damaged_card	credit_cards
+how much money do i have in my account	balance	banking
+look for my phone with me	find_phone	utility
+is it recommended to get any specific shots before i travel to japan	vaccines	travel
+tell me who is your boss	who_do_you_work_for	small_talk
+please increase your volume	change_volume	meta
+i want to listen to music	play_music	home
+where is the nearest k mart	directions	auto_and_commute
+i want to get an uber for one person to go to the library	uber	auto_and_commute
+can you schedule a meeting with john for 12	schedule_meeting	work
+could you link with my phone	sync_device	meta
+will i be charged if i use my card in china	international_fees	credit_cards
+whisper mode, stop	whisper_mode	meta
+how is the credit score hurt	improve_credit_score	credit_cards
+does china have any travel alerts i should be aware of	travel_alert	travel
+what is the status of my most recent order	order_status	home
+go to default setting	reset_settings	meta
+read my list of reminders to me	reminder	home
+tell me what the time is in dallas	time	utility
+what do i say for goodbye in hawaii	translate	travel
+change to girl voice	change_accent	meta
+can i change you name to gretchen	change_ai_name	meta
+no thank you	no	meta
+what, if any, are the charges for using my card in mexico	international_fees	credit_cards
+find me a flight from nyc to la on march 1, returning on march 5	book_flight	travel
+my card was rejected at the zoo, could you tell me why	card_declined	credit_cards
+i would like to change the name on my capital one account	pin_change	banking
+what's the nutritional value for a pizza lunchable	nutrition_info	kitchen_and_dining
+tell me my phone's location	find_phone	utility
+what's my total point number on my mastercard	rewards_balance	credit_cards
+does greece currently have any travel alerts in place	travel_alert	travel
+can you give me a french dinner suggestion	meal_suggestion	kitchen_and_dining
+tell me how i can tell if my tires need to be changed	tire_change	auto_and_commute
+"""what's the method to improve credit score"	improve_credit_score	credit_cards
+the ac is set to what right now	smart_home	home
+i need to know the date of my car's last visit to the shop please	last_maintenance	auto_and_commute
+what is the distance to austin city limits from my hotel , the holiday inn at austin	distance	auto_and_commute
+what's the closest mcdonalds	directions	auto_and_commute
+what is the location of my w2 that is needed for taxes	w2	work
+am i allowed to increase the credit limit on my mastercard	credit_limit_change	credit_cards
+how can we start communicating in french rather than english	change_language	meta
+please use male voice instead	change_accent	meta
+how can i report fraudulent charges on my card	report_fraud	banking
+i want to view my balance	balance	banking
+are my tires low on air	tire_pressure	auto_and_commute
+the check engine light is on and i need a mechanic	schedule_maintenance	auto_and_commute
+play the song after this	next_song	home
+ai, coin flip	flip_coin	utility
+usd to the euro exchanges at what right now	exchange_rate	travel
+what's the correct fuel type for my car	gas_type	auto_and_commute
+i need to rent a car in boston for march 2 until march 4	car_rental	travel
+tell me how to say, 'it is a beautiful morning' in italian	translate	travel
+what kind of interest am i getting from my bank of america checking	interest_rate	banking
+i need more checkbooks mailed as soon as possible	order_checks	banking
+tell me the next holiday	next_holiday	work
+fly me from pit to pdx on delta for under $300	book_flight	travel
+are vaccinations needed for trips to guana	vaccines	travel
+i haven't heard if my request for time off for vacation has been approved , can you get an update for me	pto_request_status	work
+how much gas do you have will you make it to jackson	gas	auto_and_commute
+let's hear a joke!	tell_joke	small_talk
+send robert a text from me telling him okay	text	utility
+is the apr on my credit card good	apr	credit_cards
+nay	no	meta
+i can't find my cell and need help locating it	find_phone	utility
+is a socket converter necessary if i'm travelling to london	plug_type	travel
+how miles does it take to get to red lobster from my current location	distance	auto_and_commute
+day that i get paid	payday	work
+might be true, might be false	maybe	meta
+so where do i get the w2 form	w2	work
+can you show me how to order some more checks for my chase account	order_checks	banking
+how many ounces in a cup	measurement_conversion	utility
+i would like to know if i can put a pto request in for march 19 to march 20	pto_request	work
+please tell me your date of birth	how_old_are_you	small_talk
+how do i get to the college by bus	directions	auto_and_commute
+what are some interesting things to do in dc	travel_suggestion	travel
+at what point should the flight land	flight_status	travel
+where should i travel if i want to go to a nice beach	travel_suggestion	travel
+change the pin on my savings account to 1234	pin_change	banking
+how can i figure out my interest rate for my umpqua account	interest_rate	banking
+does the central timezone include austin	timezone	travel
+please get my credit score	credit_score	credit_cards
+yes that is right	yes	meta
+show my my minimum payment for youtube	min_payment	banking
+is there a fee for using my card in portland	international_fees	credit_cards
+how many calories are in powdered donuts	calories	kitchen_and_dining
+please help me find my cellphone	find_phone	utility
+what is the exchange rate in pesos for 100 dollars	exchange_rate	travel
+my car needs to be brought for maintenance	schedule_maintenance	auto_and_commute
+report discover card as lost	report_lost_card	credit_cards
+put a freeze on my account	freeze_account	banking
+what is the day	date	utility
+the name is nick	change_user_name	meta
+can you tell me what song i'm hearing	what_song	home
+order some new checks to replace the ones i ran out of	order_checks	banking
+what was the date of the last time i took my car to the shop	last_maintenance	auto_and_commute
+adjust settings back to original factory settings immediately	reset_settings	meta
+change your language setting to chinese	change_language	meta
+i'd like to transfer $400 from household to savings account	transfer	banking
+i have a car payment that needs to be paid	pay_bill	banking
+what ingredients are in salsa	ingredients_list	kitchen_and_dining
+what steps should i take if my luggage has been lost	lost_luggage	travel
+tell me how you're made	where_are_you_from	small_talk
+go over my shopping list with me	shopping_list	home
+i need to know the carry-on rules for southwest	carry_on	travel
+is it acceptable to swap marinara for alfredo	ingredient_substitution	kitchen_and_dining
+for travel to argentina, do i need to get a travel visa	international_visa	travel
+how healthy is rice	nutrition_info	kitchen_and_dining
+i need a flight from the 3rd to the 7th round rip from denver international to new york international	book_flight	travel
+remind me of the date of the event called 'anniversary dinner	calendar	home
+can you tell me the ai's name	what_is_your_name	small_talk
+looking at the past month, what did i spend total	spending_history	banking
+can i cancel my reservation for 4 at red robin	cancel_reservation	kitchen_and_dining
+do you know when my card will come in	replacement_card_duration	credit_cards
+please tell me what today is	date	utility
+how are the reviews for the supreme pizza at papa john's	restaurant_reviews	kitchen_and_dining
+what's a good place to go to for food around here	restaurant_suggestion	kitchen_and_dining
+what airlines have flights round trip on april 1st to april 7th from lax to sfo	book_flight	travel
+would you book me a flight to miami from dallas on southwest airlines	book_flight	travel
+does spain expect any travel alerts	travel_alert	travel
+add dishes to my list	todo_list_update	home
+timezone of cuba	timezone	travel
+set an alarm for 9 tomorrow	alarm	utility
+what is 1 million twelve hundred divided by 400 thousand	calculator	utility
+as my visa got a high enough limit on it	credit_limit	credit_cards
+what is our purpose in life	meaning_of_life	small_talk
+what's the minimum payment on my credit card bill	min_payment	banking
+what did ya save my name as	user_name	meta
+i lost my discover card, i want to report it	report_lost_card	credit_cards
+i would like you to remind me to do something	reminder_update	home
+how much have i spent on video games recently	spending_history	banking
+roll a pair of eight sided dice	roll_dice	utility
+how many vacation days have i used so far	pto_used	work
+take me out of whisper mode	whisper_mode	meta
+i sent in a request for vacation time off and am wondering if its been approved yet	pto_request_status	work
+read my calendar events	calendar	home
+how would i replace my oil and what sort of oil should i use	oil_change_how	auto_and_commute
+what's the current tire pressure of my tires	tire_pressure	auto_and_commute
+what is the limit on my credit	credit_limit	credit_cards
+book me a hotel with good ratings in nashville	book_hotel	travel
+assure my bank i really am going to california	travel_notification	travel
+tell me what flange means	definition	utility
+i need to change my account	change_accent	meta
+in o'hare lost luggage on flight america airlines	lost_luggage	travel
+i have suspicious charges on my discovery card	report_fraud	banking
+id like to change your name to max	change_ai_name	meta
+show me my transactions on make up at sephora	transactions	banking
+israel has strict restrictions do i need a visa to travel there	international_visa	travel
+how do i get a personal w2 form	w2	work
+what time should i leave this in the oven	cook_time	kitchen_and_dining
+shut down my account	freeze_account	banking
+thai food suggestions	meal_suggestion	kitchen_and_dining
+are you considered a bot	are_you_a_bot	small_talk
+might i need to get a visa to travel to venezuela	international_visa	travel
+set a six minute timer	timer	utility
+where can i get gas to get to sioux falls	gas	auto_and_commute
+how do you make blackberry pie	recipe	kitchen_and_dining
+i want you to address me in italian	change_language	meta
+in september i changed my tires are they in need of changing	tire_change	auto_and_commute
+which kinds of pets do you own	do_you_have_pets	small_talk
+see you later alligator	goodbye	small_talk
+change my reservation with carl at umami to canceled	cancel_reservation	kitchen_and_dining
+i wanted to remember some things, what were they	reminder	home
+"how do they say ""i love you"" in japanese"	translate	travel
+how can i jump start my car if my battery is dead	jump_start	auto_and_commute
+yes sir	yes	meta
+that can't be true	no	meta
+turn on metallicas greatest hits	play_music	home
+tell me the meaning of condemnation	definition	utility
+use the name wheeler to reserve a table for 3 at andrea's steakhouse at 5pm	restaurant_reservation	kitchen_and_dining
+can you tell me my routing number	routing	banking
+i need to change my oil and have no idea how to do it	oil_change_how	auto_and_commute
+add mom's birthday to my calendar on april 12	calendar_update	home
+add the current song to my favorite playlist	update_playlist	home
+can you call my cellphone	find_phone	utility
+how much am i going to have to pay in federal taxes this year	taxes	work
+give me a coin toss result	flip_coin	utility
+does phoenix have a different timezone	timezone	travel
+can you find me a flight from denver international to new york international on the 4th for under 700 dollars	book_flight	travel
+i'm wondering what health plan i'm on	insurance	work
+can you reset my pin number	pin_change	banking
+send 1200 dollars between usaa and navy federal accounts	transfer	banking
+let me know what flights there are out of dallas to miami on march 10 for under $450	book_flight	travel
+speak in a different accent	change_accent	meta
+did my chase card application go through yet	application_status	credit_cards
+can you order everything on my shopping list	order	home
+find an uber xl to take me to the kroger near me	uber	auto_and_commute
+how many mpg does this car get	mpg	auto_and_commute
+what do you do when you're not working	what_are_your_hobbies	small_talk
+what benefits do i get from insurance	insurance	work
+what's the name of this song	what_song	home
+i would like a reorder of checkbooks for my home equity line of credit with chase	order_checks	banking
+in order to redeem my credit card points, what should i do	redeem_rewards	credit_cards
+help me get my device back to it's factory settings	reset_settings	meta
+i missed that say it again	repeat	meta
+what is the time in sydney, australia	time	utility
+what plan am i paying for	insurance	work
+could you tell me what 30% off 235 is, please	calculator	utility
+lets hear an interesting fact about funko pops	fun_fact	small_talk
+where should i spend my time off	travel_suggestion	travel
+how do i make you stop talking	cancel	meta
+how many calories are in a honey bun	calories	kitchen_and_dining
+can you give me a traffic update for a trip to the grocery store	traffic	auto_and_commute
+to visit cambodia, do i need an international visa	international_visa	travel
+i want to pay my amazon credit card but i need to know the last few transactions	transactions	banking
+tell my bank i am taking a trip to brazil from june 1st to july 1st	travel_notification	travel
+please reserve a table for 4 at red robin under the name kevin at 7	restaurant_reservation	kitchen_and_dining
+please tell me the minimum amount i can pay on my wells fargo credit card	min_payment	banking
+if i want to use my credit card points what do i do	redeem_rewards	credit_cards
+what time zone are we currently in	timezone	travel
+in austin, what are some tourist things to do	travel_suggestion	travel
+please play the song that goes doo doo doo	play_music	home
+is there a name that you preferred to be called by	what_is_your_name	small_talk
+do that	yes	meta
+can you get me a table for 4 at steve's	restaurant_reservation	kitchen_and_dining
+call and make a 5:45 pm reservation for jason rogers, table for four	restaurant_reservation	kitchen_and_dining
+what is the sum of eleven and ten	calculator	utility
+i would like to distribute some money between my accounts	transfer	banking
+set volume higher	change_volume	meta
+what's the exchange rate between ils and usd	exchange_rate	travel
+roll a 6 sided dice for me	roll_dice	utility
+can the 401k i have be rolled over	rollover_401k	work
+i need hot dogs added to my shopping list please	shopping_list_update	home
+schedule a meeting room for friday at 3pm	schedule_meeting	work
+please turn off your wifi from my phone	sync_device	meta
+how would you describe what life means	meaning_of_life	small_talk
